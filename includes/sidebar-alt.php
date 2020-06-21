@@ -1,5 +1,5 @@
 <?php themify_sidebar_alt_before(); //hook ?>
-<aside id="sidebar-alt" role="complementary">
+<aside id="sidebar-alt" class="boxunit-container" role="complementary">
 	<?php themify_sidebar_alt_start(); //hook ?>
 
 	<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-alt') ); ?>
