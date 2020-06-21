@@ -1,9 +1,11 @@
 <?php
 /** Themify Default Variables
  *  @var object */
-global $themify;
+global $themify; ?>
 
-get_header(); ?>
+<?php get_header(); ?>
+
+<?php dynamic_sidebar('top-728x90-ad'); ?>
 
 <?php if( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
@@ -20,6 +22,8 @@ get_header(); ?>
 				<?php get_template_part( 'includes/loop'); ?>
 		
 				<?php wp_link_pages(array('before' => '<p class="post-pagination"><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
+
+				<?php dynamic_sidebar('article-bottom-newsletter'); ?>
 					
 				<?php get_template_part( 'includes/author-box', 'single'); ?>
 		

@@ -17,13 +17,13 @@ global $themify; ?>
 
 			<?php get_template_part( 'includes/footer-widgets'); ?>
 	
-			<nav class="footer-nav-wrap" aria-label="<?php _e( 'Footer Navigation', 'themify' ); ?>">
+			<div class="footer-nav-wrap">
 				<p class="back-top"><a href="#header">&uarr;</a></p>
 			
 				<?php if (function_exists('wp_nav_menu')) {
 					wp_nav_menu(array('theme_location' => 'footer-nav' , 'fallback_cb' => '' , 'container'  => '' , 'menu_id' => 'footer-nav' , 'menu_class' => 'footer-nav')); 
 				} ?>
-			</nav>
+			</div>
 			<!-- /footer-nav-wrap -->
 	
 			<div class="footer-text clearfix">

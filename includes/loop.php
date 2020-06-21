@@ -20,6 +20,9 @@ global $themify; ?>
 
 		<?php elseif( $post_image = themify_get_image($themify->auto_featured_image . $themify->image_setting . "w=".$themify->width."&h=".$themify->height ) ) : ?>
 
+                <?php if (is_front_page() || is_archive()) { ?>
+                <div class="img-container">
+                <?php } ?>
 			<figure class="post-image <?php echo $themify->image_align; ?>">
 				<?php if( 'yes' == $themify->unlink_image): ?>
 					<?php echo $post_image; ?>
@@ -27,6 +30,11 @@ global $themify; ?>
 					<a href="<?php echo themify_get_featured_image_link(); ?>"><?php echo $post_image; ?><?php themify_zoom_icon(); ?></a>
 				<?php endif; // unlink image ?>
 			</figure>
+                <?php if (is_front_page() || is_archive()) { ?>
+                </div>
+                <?php } ?>
+
+
 
 		<?php endif; // video else image ?>
 
@@ -40,21 +48,39 @@ global $themify; ?>
 		<?php endif; //post date ?>
 
 		<?php if($themify->hide_title != "yes"): ?>
-			<?php themify_post_title(); ?>
+                <?php themify_before_post_title(); // Hook ?>
+                <?php if($themify->unlink_title == "yes"): ?>
+                    <h1 class="post-title entry-title" itemprop="name"><?php the_title(); ?></h1>
+                <?php else: ?>
+                    <h1 class="post-title entry-title" itemprop="name"><a href="<?php echo themify_get_featured_image_link(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+                <?php endif; //unlink post title ?>
+                <?php themify_after_post_title(); // Hook ?>
 		<?php endif; //post title ?>
 
 		<?php if($themify->hide_meta != 'yes'): ?>
 			<p class="post-meta entry-meta">
-				<span class="post-author"><?php echo themify_get_author_link(); ?> <em>/</em></span>
+                    <span class="post-author">By <?php echo themify_get_author_link(); ?> <em>/</em></span>
 				<span class="post-category"><?php the_category(', ') ?> <em>/</em></span>
-				<?php the_tags(' <span class="post-tag">', ', ', ' <em>/</em></span>'); ?>
-				<?php  if( !themify_get('setting-comments_posts') && comments_open() ) : ?>
-					<span class="post-comment"><?php comments_popup_link( __( '0 Comments', 'themify' ), __( '1 Comment', 'themify' ), __( '% Comments', 'themify' ) ); ?></span>
-				<?php endif; //post comment ?>
+                    <?php the_tags(' <span class="post-tag">', ', ', ' <!--<em>/</em>--></span>'); ?>
+                    <?php /* if( !themify_get('setting-comments_posts') && comments_open() ) : */?><!--
+                        <span class="post-comment"><?php /*comments_popup_link( __( '0 Comments', 'themify' ), __( '1 Comment', 'themify' ), __( '% Comments', 'themify' ) ); */?></span>
+                    --><?php /*endif; //post comment */?>
 			</p>
 		<?php endif; //post meta ?>
 
-		<div class="entry-content">
+            <?php if (!is_front_page() && !is_archive() && !is_search()) { ?>
+                <div class="social_icons" style="margin-bottom: 10px;">
+                    <div style="overflow: hidden;">
+                        <div><?php echo fb_like_button(); ?></div>
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                        <div class="sharethis-inline-share-buttons"></div>
+                    </div>
+                </div>
+            <?php } ?>
+
+
+            <div class="entry-content" style="padding-top: 10px" itemprop="articleBody">
 
 		<?php if ( 'excerpt' == $themify->display_content && ! is_attachment() ) : ?>
 

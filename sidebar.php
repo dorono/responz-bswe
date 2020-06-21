@@ -1,6 +1,6 @@
 <?php if(!post_password_required()):?>
     <?php themify_sidebar_before(); //hook ?>
-    <aside id="sidebar" itemscope="itemscope" itemtype="https://schema.org/WPSideBar" role="complementary">
+<aside id="sidebar" class="boxunit-container">
                 <?php themify_sidebar_start(); //hook ?>
 
                 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-main') ); ?>
