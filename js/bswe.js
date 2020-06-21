@@ -83,13 +83,13 @@
   // the elements to be skipped.
   BSWE.applySkipClass(BSWE.skipList);
 
-  if ($('body').hasClass('grid2')) {
+  if (!$('body').hasClass('single-format-standard')) {
     BSWE.distributeAds({
       contentContainer: '#loops-wrapper',
       adDivider: 'article',
       frequency: 2,
     });
-  } else if ($('body').hasClass('single-format-standard')) {
+  } else {
     BSWE.distributeAds({
       contentContainer: 'article',
       adDivider: 'p:not(.skip)',
@@ -98,15 +98,17 @@
   }
 })(jQuery);
 
-(function ($) {
-  $('.boxunit a').on('click', function () {
-    var label = $(this).data('slot-name');
+(function($) {
 
-    ga('send', {
-      hitType: 'event',
-      eventCategory: 'Advertisements',
-      eventAction: 'Banner Click',
-      eventLabel: label,
+  $('.boxunit a').on('click', function() {
+      var label = $(this).data('slot-name');
+
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Advertisements',
+        eventAction: 'Banner Click',
+        eventLabel: label
+      });
+
     });
-  });
 })(jQuery);

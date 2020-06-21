@@ -5,7 +5,7 @@
 global $themify; ?>
 
 <?php themify_post_before(); //hook ?>
-<article id="post-<?php the_id(); ?>" <?php post_class("post clearfix " . $themify->get_categories_as_classes(get_the_id())); ?>>
+    <article itemscope itemtype="http://schema.org/Article" id="post-<?php the_ID(); ?>" <?php post_class("post clearfix " . $themify->get_categories_as_classes(get_the_ID())); ?>>
 	<?php themify_post_start(); // hook ?>
 
 	<?php if ( $themify->hide_image != 'yes' ) : ?>
@@ -44,7 +44,7 @@ global $themify; ?>
 	<div class="post-content">
 
 		<?php if($themify->hide_date != "yes"): ?>
-			<time datetime="<?php the_time('o-m-d') ?>" class="post-date entry-date updated"><?php echo get_the_date( apply_filters( 'themify_loop_date', '' ) ) ?></time>
+                <time datetime="<?php the_time('o-m-d') ?>" class="post-date entry-date updated" itemprop="datePublished"><?php echo get_the_date( apply_filters( 'themify_loop_date', '' ) ) ?></time>
 		<?php endif; //post date ?>
 
 		<?php if($themify->hide_title != "yes"): ?>
@@ -87,7 +87,7 @@ global $themify; ?>
 			<?php the_excerpt(); ?>
 
 			<?php if( themify_check('setting-excerpt_more') ) : ?>
-				<p><a href="<?php the_permalink(); ?>" class="more-link"><?php echo themify_check('setting-default_more_text')? themify_get('setting-default_more_text') : __('More &rarr;', 'themify') ?></a></p>
+                    <p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute('echo=0'); ?>" class="more-link"><?php echo themify_check('setting-default_more_text')? themify_get('setting-default_more_text') : __('More &rarr;', 'themify') ?></a></p>
 			<?php endif; ?>
 
 		<?php elseif ( 'none' == $themify->display_content && ! is_attachment() ) : ?>

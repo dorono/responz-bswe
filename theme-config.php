@@ -51,7 +51,7 @@ $themify_theme_config['panel']['settings']['tab']['default_layouts'] = array(
 	'id' => 'default_layouts',
 	'custom-module' => array(
 		array(
-			'title' => __('Default Archive Post Layout', 'themify'),
+			'title' => __('Default Index Layout (archive, category, search, tag pages, etc.)', 'themify'),
 			'function' => 'default_layout'
 		),
 		array(
