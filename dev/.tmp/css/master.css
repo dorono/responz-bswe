@@ -5,31 +5,15 @@
 /* newsletter signup */
 /* MISC */
 @font-face {
-  font-family: 'SkinBones';
+  font-family: "SkinBones";
   src: url('/fonts/normal');
-  src: url('/fonts/normal?#iefix') format('embedded-opentype'),
-    url(/wp-content/themes/responz-bswe/fonts/skin__bones-webfont.woff)
-      format('woff'),
-    url(/wp-content/themes/responz-bswe/fonts/skin__bones-webfont.ttf)
-      format('truetype'),
-    url(/wp-content/themes/responz-bswe/fonts/skin__bones-webfont.svg)
-      format('svg'),
-    url(/wp-content/themes/responz-bswe/fonts/skin__bones-webfont.eot)
-      format('embedded-opentype');
+  src: url('/fonts/normal?#iefix') format('embedded-opentype'), url(/wp-content/themes/responz-bswe/fonts/skin__bones-webfont.woff) format('woff'), url(/wp-content/themes/responz-bswe/fonts/skin__bones-webfont.ttf) format('truetype'), url(/wp-content/themes/responz-bswe/fonts/skin__bones-webfont.svg) format('svg'), url(/wp-content/themes/responz-bswe/fonts/skin__bones-webfont.eot) format('embedded-opentype');
   font-weight: normal;
 }
 @font-face {
-  font-family: 'Cabin';
+  font-family: "Cabin";
   src: url('/fonts/normal');
-  src: url('/fonts/normal?#iefix') format('embedded-opentype'),
-    url(/wp-content/themes/responz-bswe/fonts/cabin-regular-webfont.woff)
-      format('woff'),
-    url(/wp-content/themes/responz-bswe/fonts/cabin-regular-webfont.ttf)
-      format('truetype'),
-    url(/wp-content/themes/responz-bswe/fonts/cabin-regular-webfont.svg)
-      format('svg'),
-    url(/wp-content/themes/responz-bswe/fonts/cabin-regular-webfont.eot)
-      format('embedded-opentype');
+  src: url('/fonts/normal?#iefix') format('embedded-opentype'), url(/wp-content/themes/responz-bswe/fonts/cabin-regular-webfont.woff) format('woff'), url(/wp-content/themes/responz-bswe/fonts/cabin-regular-webfont.ttf) format('truetype'), url(/wp-content/themes/responz-bswe/fonts/cabin-regular-webfont.svg) format('svg'), url(/wp-content/themes/responz-bswe/fonts/cabin-regular-webfont.eot) format('embedded-opentype');
   font-weight: normal;
 }
 /* line 72, ../../sass/_bswe.scss */
@@ -37,7 +21,7 @@ body {
   background-image: none;
   color: #333;
   font-family: Cabin, Arial, sans-serif;
-  /* this is for the accordion menu, out of commission for now
+    /* this is for the accordion menu, out of commission for now
     .widget_taxonomy_list_widget {
         position: relative;
 
@@ -173,7 +157,7 @@ body #headerwrap {
 }
 /* line 154, ../../sass/_bswe.scss */
 body #headerwrap #header {
-  background-image: url('/wp-content/themes/responz-bswe/images/bswe-sax.png');
+  background-image: url("/wp-content/themes/responz-bswe/images/bswe-sax.png");
   background-repeat: no-repeat;
   height: 172px;
 }
@@ -189,7 +173,7 @@ body #headerwrap #header hgroup {
 }
 /* line 170, ../../sass/_bswe.scss */
 body #headerwrap #header a#advertise-link {
-  color: #9ccfee;
+  color: #9CCFEE;
 }
 @media screen and (max-width: 480px) {
   /* line 175, ../../sass/_bswe.scss */
@@ -216,7 +200,7 @@ body #headerwrap #header #site-logo {
 }
 /* line 195, ../../sass/_bswe.scss */
 body #headerwrap #header #site-logo a {
-  color: #9ccfee;
+  color: #9CCFEE;
   font-family: SkinBones, sans-serif, Arial, Helvetica;
   font-size: 44px;
   font-style: normal;
@@ -309,7 +293,7 @@ body .homepage-signup,
 body .sidebar_newsletter,
 body .article-bottom-signup {
   padding: 10px;
-  background: #9ccfee;
+  background: #9CCFEE;
   border: solid 1px #000;
   text-align: left;
   margin-bottom: 15px;
@@ -358,18 +342,18 @@ body .article-bottom-signup h4 {
   border: 1px solid #000;
 }
 /* line 339, ../../sass/_bswe.scss */
-body .homepage-signup input[type='text'],
-body .sidebar_newsletter input[type='text'],
-body .article-bottom-signup input[type='text'] {
+body .homepage-signup input[type=text],
+body .sidebar_newsletter input[type=text],
+body .article-bottom-signup input[type=text] {
   width: 400px;
   font-size: 25px;
   padding: 5px;
   margin: 0 0 10px;
 }
 /* line 346, ../../sass/_bswe.scss */
-body .homepage-signup input[type='submit'],
-body .sidebar_newsletter input[type='submit'],
-body .article-bottom-signup input[type='submit'] {
+body .homepage-signup input[type=submit],
+body .sidebar_newsletter input[type=submit],
+body .article-bottom-signup input[type=submit] {
   color: #fff;
   background-color: #2b7534;
 }
@@ -535,8 +519,7 @@ body .sidebar-boxunit {
   text-align: center;
 }
 /* line 515, ../../sass/_bswe.scss */
-body .sidebar-boxunit img.desktop-tablet-boxunit-img,
-body .sidebar-boxunit img.mobile-boxunit-img {
+body .sidebar-boxunit img.desktop-tablet-boxunit-img, body .sidebar-boxunit img.mobile-boxunit-img {
   display: none;
 }
 @media screen and (min-width: 760px) {
