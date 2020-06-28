@@ -30,15 +30,19 @@
         array[i] = t;
       }
 
-      var featuredSlots = array.filter(function (val) {
-        return val.isFeatured;
+      var featuredSlots = [];
+      var nonFeaturedSlots = [];
+      $.each(array, function (idx, el) {
+        console.log('el', el);
+        if (el.isFeatured) {
+          featuredSlots.push(el);
+        } else {
+          nonFeaturedSlots.push(el);
+        }
       });
 
-      console.log('featuredSlots', featuredSlots);
-      var featuredAd_1 = array.shift();
-      array.unshift(featuredAd_1);
-
-      return array;
+      var combinedSlots = featuredSlots.concat(nonFeaturedSlots);
+      return combinedSlots;
     }
 
     $('.sidebar-boxunit').each(function () {
@@ -57,8 +61,6 @@
       contentContainer = settings.contentContainer, // '#loops-wrapper',
       adParent,
       sourceAd;
-
-    console.log('adArray', adArray);
 
     $(contentContainer)
       .find(settings.adDivider)

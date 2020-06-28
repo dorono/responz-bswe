@@ -1,16 +1,16 @@
 <?php
 
-$Img1 = get_bloginfo('url') . "/wp-content/uploads/UGSSP-300x250.jpg";
+$Img1 = get_bloginfo('url') . "/wp-content/uploads/liebman-multi.jpg";
 $Alt1 = "The Ultimate Guide to Saxophone Sound Production";
 $Url1 = "http://saxophonetone.com";
 $ad_name1 = "ugssp-ad-v1";
-$slot_name1 = "UGSSP 300x250";
+$slot_name1 = "UGSSP FB-Style Featured Ad";
 
-$Img2 = get_bloginfo('url') . "/wp-content/uploads/UGSSP-300x250.jpg";
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/liebman-multi.jpg";
 $Alt2 = "The Ultimate Guide to Saxophone Sound Production";
 $Url2 = "http://saxophonetone.com";
 $ad_name2 = "ugssp-ad-v1";
-$slot_name2 = "UGSSP 300x250";
+$slot_name2 = "UGSSP FB-Style Featured Ad";
 
 $num = rand (1,2);
 
@@ -21,7 +21,8 @@ $ad_name = ${'ad_name'.$num};
 $slot_name = ${'slot_name'.$num};
 
 
-print "<div id=\"featured-box-1\" class=\"sidebar-boxunit boxunit featured-box\" data-boxunit-slot=\"boxunit-300x250-02\"><a href=\"".$URL."\" rel=\"noopener noreferrer nofollow\" target=\"_blank\"
-class=\"boxunit-banner\" data-boxunit-name=\"".$ad_name."\" data-slot-name=\"".$slot_name."\"><img src=\"".$Image."\" alt=\"".$Alt."\" width=\"300\"
-height=\"250\"></a></div>";
+print "<div id=\"featured-box-1\" class=\"sidebar-boxunit boxunit featured-box\" data-boxunit-slot=\"boxunit-300x250-02\"><div class=\"featured-box-container\"><div><p>Sax legend David Liebman's new course is designed to be the ONLY course on saxophone sound you'll ever need. This streaming video series features the most effective sound production techniques and concepts he's come across over decades spent helping saxophonists to find their biggest, richest, and most compelling voice on the horn.
+
+David takes the same methods that were taught to fellow legends (Michael Brecker, Eddie Daniels, and other giants), and expands on them so that players at any level (including those who don't have a ton of time to practice each week) can start building the kind of sound that truly turns heads.</p></div><a href=\"".$URL."\" rel=\"noopener noreferrer nofollow\" target=\"_blank\"
+class=\"boxunit-banner\" data-boxunit-name=\"".$ad_name."\" data-slot-name=\"".$slot_name."\"><img src=\"".$Image."\" alt=\"".$Alt."\"></a></div></div>";
 ?>
