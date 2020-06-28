@@ -30,6 +30,14 @@
         array[i] = t;
       }
 
+      var featuredSlots = array.filter(function (val) {
+        return val.isFeatured;
+      });
+
+      console.log('featuredSlots', featuredSlots);
+      var featuredAd_1 = array.shift();
+      array.unshift(featuredAd_1);
+
       return array;
     }
 
@@ -38,6 +46,7 @@
       adArray.push({
         adSlot: $(this).data('boxunit-slot'),
         adContainer: $(this).parents('.boxunit-container').attr('id'),
+        isFeatured: $(this).hasClass('featured-box'),
       });
     });
 
@@ -48,6 +57,8 @@
       contentContainer = settings.contentContainer, // '#loops-wrapper',
       adParent,
       sourceAd;
+
+    console.log('adArray', adArray);
 
     $(contentContainer)
       .find(settings.adDivider)
