@@ -33,7 +33,6 @@
       var featuredSlots = [];
       var nonFeaturedSlots = [];
       $.each(array, function (idx, el) {
-        console.log('el', el);
         if (el.isFeatured) {
           featuredSlots.push(el);
         } else {
@@ -111,17 +110,15 @@
   }
 })(jQuery);
 
-(function($) {
+(function ($) {
+  $('.boxunit a').on('click', function () {
+    var label = $(this).data('slot-name');
 
-  $('.boxunit a').on('click', function() {
-      var label = $(this).data('slot-name');
-
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'Advertisements',
-        eventAction: 'Banner Click',
-        eventLabel: label
-      });
-
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'Advertisements',
+      eventAction: 'Banner Click',
+      eventLabel: label,
     });
+  });
 })(jQuery);

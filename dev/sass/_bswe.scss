@@ -408,15 +408,55 @@ body {
   .featured-box {
     .featured-box-container {
       border: 1px solid $bgcolor-6;
+      overflow: hidden;
 
       div {
         padding: 10px;
+
+        &.top-text {
+          padding-bottom: 0;
+        }
 
         p {
           font-size: 14px;
           line-height: 1.25;
           text-align: left;
         }
+      }
+
+      .featured-box-title {
+        text-align: left;
+        cursor: pointer;
+
+        .text {
+          padding: 0;
+          width: 60%;
+          float: left;
+        }
+
+        .cta {
+          padding: 0;
+          width: 40%;
+          float: right;
+          text-align: right;
+        }
+
+        .url {
+          text-transform: uppercase;
+          font-size: 12px;
+          margin: 0;
+          padding: 0;
+        }
+
+        .headline {
+          margin: 0 0 5px;
+          font-size: 19px;
+          font-weight: bold;
+        }
+      }
+
+      .featured-box-img-container {
+        padding: 0;
       }
     }
   }
