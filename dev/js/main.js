@@ -33,7 +33,6 @@
       var featuredSlots = [];
       var nonFeaturedSlots = [];
       $.each(array, function (idx, el) {
-        console.log('el', el);
         if (el.isFeatured) {
           featuredSlots.push(el);
         } else {
@@ -90,7 +89,7 @@
 
   // list of elements that should not be counted
   // as part of the distribution of ads in content
-  BSWE.skipList = ['.writer_promo p'];
+  BSWE.skipList = ['.writer_promo p', 'blockquote p'];
 
   // Feed the skip list to a function that adds the skip class to
   // the elements to be skipped.
@@ -100,7 +99,7 @@
     BSWE.distributeAds({
       contentContainer: '#loops-wrapper',
       adDivider: 'article',
-      frequency: 2,
+      frequency: 1,
     });
   } else {
     BSWE.distributeAds({

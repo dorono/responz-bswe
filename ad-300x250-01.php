@@ -2,33 +2,45 @@
 
 $Img1 = get_bloginfo('url') . "/wp-content/uploads/liebman-multi.jpg";
 $Cta1 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+$MainText1 = "<p>Sax legend David Liebman's new course is designed to be the ONLY course on saxophone sound you'll ever need. This streaming video series features the most effective sound production techniques and concepts he's come across over decades spent helping saxophonists to find their biggest, richest, and most compelling voice on the horn.</p><p>David takes the same methods that were taught to fellow legends (Michael Brecker, Eddie Daniels, and other giants), and expands on them so that players at any level (including those who don't have a ton of time to practice each week) can start building the kind of sound that truly turns heads.</p>";
 $Alt1 = "The Ultimate Guide to Saxophone Sound Production";
 $Url1 = "http://saxophonetone.com";
 $ad_name1 = "ugssp-ad-v1";
 $slot_name1 = "UGSSP FB-Style Featured Ad";
 
-$Img2 = get_bloginfo('url') . "/wp-content/uploads/liebman-multi.jpg";
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/lieb-arm-up-playing.jpg";
 $Cta2 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+$MainText2 = "<p>Sax legend David Liebman's new course is designed to be the ONLY course on saxophone sound you'll ever need. This streaming video series features the most effective sound production techniques and concepts he's come across over decades spent helping saxophonists to find their biggest, richest, and most compelling voice on the horn.</p><p>David takes the same methods that were taught to fellow legends (Michael Brecker, Eddie Daniels, and other giants), and expands on them so that players at any level (including those who don't have a ton of time to practice each week) can start building the kind of sound that truly turns heads.</p>";
 $Alt2 = "The Ultimate Guide to Saxophone Sound Production";
 $Url2 = "http://saxophonetone.com";
 $ad_name2 = "ugssp-ad-v1";
 $slot_name2 = "UGSSP FB-Style Featured Ad";
 
-$num = rand (1,2);
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/lieb-arm-up-playing.jpg";
+$Cta2 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+$MainText2 = "<p>Sax legend David Liebman's new course is designed to be the ONLY course on saxophone sound you'll ever need. This streaming video series features the most effective sound production techniques and concepts he's come across over decades spent helping saxophonists to find their biggest, richest, and most compelling voice on the horn.</p><p>David takes the same methods that were taught to fellow legends (Michael Brecker, Eddie Daniels, and other giants), and expands on them so that players at any level (including those who don't have a ton of time to practice each week) can start building the kind of sound that truly turns heads.</p>";
+$Alt2 = "The Ultimate Guide to Saxophone Sound Production";
+$Url2 = "http://saxophonetone.com";
+$ad_name2 = "ugssp-ad-v1";
+$slot_name2 = "UGSSP FB-Style AD - Lieb Arm Up";
+
+$Img3 = get_bloginfo('url') . "/wp-content/uploads/liebman-embouchure-closeup.jpg";
+$Cta3 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+$MainText3 = "<p>Sax legend David Liebman's new course is designed to be the ONLY course on saxophone sound you'll ever need. This streaming video series features the most effective sound production techniques and concepts he's come across over decades spent helping saxophonists to find their biggest, richest, and most compelling voice on the horn.</p><p>David takes the same methods that were taught to fellow legends (Michael Brecker, Eddie Daniels, and other giants), and expands on them so that players at any level (including those who don't have a ton of time to practice each week) can start building the kind of sound that truly turns heads.</p>";
+$Alt3 = "The Ultimate Guide to Saxophone Sound Production";
+$Url3 = "http://saxophonetone.com";
+$ad_name3 = "ugssp-ad-v1";
+$slot_name3 = "UGSSP FB-Style AD - Lieb Embouchure Closeup";
+
+$num = rand (1,3);
 
 $Image = ${'Img'.$num};
 $Cta = ${'Cta'.$num};
+$MainText = ${'MainText'.$num};
 $Alt = ${'Alt' .$num};
 $URL = ${'Url'.$num};
 $ad_name = ${'ad_name'.$num};
 $slot_name = ${'slot_name'.$num};
 
-
-print "<div id=\"featured-box-1\" class=\"sidebar-boxunit boxunit featured-box\" data-boxunit-slot=\"boxunit-300x250-02\"><div class=\"featured-box-container\"><div class=\"top-text\"><p>Sax legend David Liebman's new course is designed to be the ONLY course on saxophone sound you'll ever need. This streaming video series features the most effective sound production techniques and concepts he's come across over decades spent helping saxophonists to find their biggest, richest, and most compelling voice on the horn.</p><p>David takes the same methods that were taught to fellow legends (Michael Brecker, Eddie Daniels, and other giants), and expands on them so that players at any level (including those who don't have a ton of time to practice each week) can start building the kind of sound that truly turns heads.</p></div><div class=\"featured-box-img-container\"><a href=\"".$URL."\" rel=\"noopener noreferrer nofollow\" target=\"_blank\"
-class=\"boxunit-banner\" data-boxunit-name=\"".$ad_name."\" data-slot-name=\"".$slot_name."\"><img src=\"".$Image."\" alt=\"".$Alt."\"></a></div>
-
-
-
-<div class=\"featured-box-title\" onclick=\"window.open('$URL', '_blank')\"><p class=\"url\">SAXOPHONETONE.COM</p><div class=\"text\"><p class=\"headline\">Ultimate Guide to Saxophone Sound Production</p></div>
-<div class=\"cta\"><img src=\"".$Cta."\"></div></div></div></div>";
+print "<div id=\"featured-box-1\" class=\"sidebar-boxunit boxunit featured-box\" data-boxunit-slot=\"boxunit-300x250-02\"><div class=\"featured-box-container\"><div class=\"top-text\">".$MainText."</div><div class=\"featured-box-img-container\"><a href=\"".$URL."\" rel=\"noopener noreferrer nofollow\" target=\"_blank\" class=\"boxunit-banner\" data-boxunit-name=\"".$ad_name."\" data-slot-name=\"".$slot_name."\"><img src=\"".$Image."\" alt=\"".$Alt."\"></a></div><div class=\"featured-box-title\" onclick=\"window.open('$URL', '_blank')\"><p class=\"url\">SAXOPHONETONE.COM</p><div class=\"text\"><p class=\"headline\">Ultimate Guide to Saxophone Sound Production</p></div><div class=\"cta\"><img src=\"".$Cta."\"></div></div></div></div>";
 ?>

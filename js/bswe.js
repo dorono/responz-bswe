@@ -89,7 +89,7 @@
 
   // list of elements that should not be counted
   // as part of the distribution of ads in content
-  BSWE.skipList = ['.writer_promo p'];
+  BSWE.skipList = ['.writer_promo p', 'blockquote p'];
 
   // Feed the skip list to a function that adds the skip class to
   // the elements to be skipped.
@@ -99,7 +99,7 @@
     BSWE.distributeAds({
       contentContainer: '#loops-wrapper',
       adDivider: 'article',
-      frequency: 2,
+      frequency: 1,
     });
   } else {
     BSWE.distributeAds({
@@ -110,15 +110,17 @@
   }
 })(jQuery);
 
-(function ($) {
-  $('.boxunit a').on('click', function () {
-    var label = $(this).data('slot-name');
+(function($) {
 
-    ga('send', {
-      hitType: 'event',
-      eventCategory: 'Advertisements',
-      eventAction: 'Banner Click',
-      eventLabel: label,
+  $('.boxunit a').on('click', function() {
+      var label = $(this).data('slot-name');
+
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Advertisements',
+        eventAction: 'Banner Click',
+        eventLabel: label
+      });
+
     });
-  });
 })(jQuery);
