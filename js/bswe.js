@@ -89,7 +89,7 @@
 
   // list of elements that should not be counted
   // as part of the distribution of ads in content
-  BSWE.skipList = ['.writer_promo p', 'blockquote p'];
+  BSWE.skipList = ['.writer_promo p', 'blockquote p', '.sidebar-boxunit p'];
 
   // Feed the skip list to a function that adds the skip class to
   // the elements to be skipped.
@@ -99,7 +99,7 @@
     BSWE.distributeAds({
       contentContainer: '#loops-wrapper',
       adDivider: 'article',
-      frequency: 1,
+      frequency: 2,
     });
   } else {
     BSWE.distributeAds({
