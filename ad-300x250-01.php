@@ -51,24 +51,24 @@ $Url2 = "http://saxtechnique.com";
 $ad_name2 = "lfcc-minor-3rd-1up-1down";
 $slot_name2 = "LFCC FB-Style Featured Ad - Minor 3rd Up and Down";
 
-$Img4 = get_bloginfo('url') . "/wp-content/uploads/fb-stacked-4ths-screencap.jpg";
-$Cta4 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
-$MainText4 = "<p>Recording artist and master class clinician, Adam Larson shares his proven system for building technique in a way that not only uncovers and removes your technical \"blind spots\", but also opens you up to a whole new world of jazz improv vocabulary. Even if you don't have a ton of time to practice each week, if you're ready to move out of your comfort zone in a fun and inspiring way, then click the picture below and check the program out for yourself!</p>";
-$DisplayUrl4 = "SAXTECHNIQUE.COM";
-$ProductName4 = "Lightning-Fast and Crystal-Clean Saxophone Technique";
-$Url4 = "http://saxtechnique.com";
-$ad_name4 = "fb-stacked-4ths-screencap";
-$slot_name4 = "LFCC FB-Style Featured Ad - Stacked 4ths";
+// $Img4 = get_bloginfo('url') . "/wp-content/uploads/fb-stacked-4ths-screencap.jpg";
+// $Cta4 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+// $MainText4 = "<p>Recording artist and master class clinician, Adam Larson shares his proven system for building technique in a way that not only uncovers and removes your technical \"blind spots\", but also opens you up to a whole new world of jazz improv vocabulary. Even if you don't have a ton of time to practice each week, if you're ready to move out of your comfort zone in a fun and inspiring way, then click the picture below and check the program out for yourself!</p>";
+// $DisplayUrl4 = "SAXTECHNIQUE.COM";
+// $ProductName4 = "Lightning-Fast and Crystal-Clean Saxophone Technique";
+// $Url4 = "http://saxtechnique.com";
+// $ad_name4 = "fb-stacked-4ths-screencap";
+// $slot_name4 = "LFCC FB-Style Featured Ad - Stacked 4ths";
 
-$Img3 = get_bloginfo('url') . "/wp-content/uploads/lieb-arm-up-playing.jpg";
-$Cta3 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
-$MainText3 = "<p>Sax legend David Liebman's new course is designed to be the ONLY course on saxophone sound you'll ever need. This streaming video series features the most effective sound production techniques and concepts he's come across over decades spent helping saxophonists to find their biggest, richest, and most compelling voice on the horn.</p><p>David takes the same methods that were taught to fellow legends (Michael Brecker, Eddie Daniels, and other giants), and expands on them so that players at any level (including those who don't have a ton of time to practice each week) can start building the kind of sound that truly turns heads.</p>";
-$DisplayUrl3 = "SAXOPHONETONE.COM";
-$Alt3 = "The Ultimate Guide to Saxophone Sound Production";
-$ProductName3 = "Build a Saxophone Sound That Blows the Doors Off";
-$Url3 = "http://saxophonetone.com";
-$ad_name3 = "ugssp-ad-arm-up-build-sound";
-$slot_name3 = "UGSSP FB-Style AD - Lieb Arm Up - BUILD SOUND";
+// $Img3 = get_bloginfo('url') . "/wp-content/uploads/lieb-arm-up-playing.jpg";
+// $Cta3 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+// $MainText3 = "<p>Sax legend David Liebman's new course is designed to be the ONLY course on saxophone sound you'll ever need. This streaming video series features the most effective sound production techniques and concepts he's come across over decades spent helping saxophonists to find their biggest, richest, and most compelling voice on the horn.</p><p>David takes the same methods that were taught to fellow legends (Michael Brecker, Eddie Daniels, and other giants), and expands on them so that players at any level (including those who don't have a ton of time to practice each week) can start building the kind of sound that truly turns heads.</p>";
+// $DisplayUrl3 = "SAXOPHONETONE.COM";
+// $Alt3 = "The Ultimate Guide to Saxophone Sound Production";
+// $ProductName3 = "Build a Saxophone Sound That Blows the Doors Off";
+// $Url3 = "http://saxophonetone.com";
+// $ad_name3 = "ugssp-ad-arm-up-build-sound";
+// $slot_name3 = "UGSSP FB-Style AD - Lieb Arm Up - BUILD SOUND";
 
 // $Img3 = get_bloginfo('url') . "/wp-content/uploads/liebman-embouchure-closeup.jpg";
 // $Cta3 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
@@ -90,7 +90,7 @@ $slot_name3 = "UGSSP FB-Style AD - Lieb Arm Up - BUILD SOUND";
 // $ad_name3 = "jlwg-all-3-v1";
 // $slot_name3 = "JLWG FB-Style AD - All 3 V1";
 
-$num = rand (1,3);
+$num = rand (1,2);
 
 $Image = ${'Img'.$num};
 $Cta = ${'Cta'.$num};
