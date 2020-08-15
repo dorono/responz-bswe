@@ -23,21 +23,26 @@ global $themify; ?>
 
 <script src="//platform-api.sharethis.com/js/sharethis.js#property=5adb1bcabc190a0013e2aba9&product=gdpr-compliance-tool"></script>
 
-	<?php //For Facebook to create custom audience out of my website visitors ?>
-	<!-- Facebook Pixel Code -->
-	<script>
-	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-	document,'script','https://connect.facebook.net/en_US/fbevents.js');
-
-	fbq('init', '909075279152522');
-	fbq('track', "PageView");</script>
-	<noscript><img height="1" width="1" style="display:none"
-	src="https://www.facebook.com/tr?id=909075279152522&ev=PageView&noscript=1"
-	/></noscript>
-	<!-- End Facebook Pixel Code -->
+<?php //For Facebook to create custom audience out of my website visitors ?>
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s) {
+    if(f.fbq) return; n=f.fbq=function() {
+      n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)
+    };
+    if(!f._fbq) f._fbq=n; n.push=n; n.loaded=!0; n.version='2.0';
+    n.queue=[]; t=b.createElement(e); t.async=!0;
+    t.src=v; s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)
+  }(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init','211589990286087');
+  fbq('track','PageView');
+  fbq('dataProcessingOptions', ['LDU'], 0, 0);
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=211589990286087&ev=PageView&noscript=1" /></noscript>
+<!-- End Facebook Pixel Code -->
 
 
   <!-- Load Facebook SDK for JavaScript -->

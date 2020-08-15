@@ -1,7 +1,9 @@
 <?php
 $Img1 = get_bloginfo('url') . "/wp-content/uploads/liebman-multi.jpg";
 $Cta1 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
-$MainText1 = "<p>If you've ever agonized over finding a reed that plays halfway-decent, or that mouthpiece that will make you sound like your favorite player, the truth is, to the outside listener, you sound pretty much like <em>you</em> - regardless of what you're playing on. It's not that gear doesn't affect your sound at all, but gear <em>alone</em> will never transform your tonal identity as a saxophonist. Your biggest and richest sound will only come by developing the skills within both your body and mind to sound great on <em>any</em> setup.</p><p>So if you're willing to move beyond the endless quest for expensive horns and accessories, then sax legend David Liebman's <em>Ultimate Guide to Saxophone Sound Production</em> is where you're going to want to go next. This streaming video course represents his entire life's work teaching the techniques and concepts that were handed down to masters such as Michael Brecker, Bob Berg, and Harvey Pittel (among many others), and then refined over the course of decades teaching countless lessons and masterclasses worldwide. Click below to see for yourself why so many professional saxophonists consider David's thorough, methodical, and practical approach the \"real deal\" for players at <em>any</em> level.</p>";
+$MainText1 = "<p>Regardless of your horn, mouthpiece, or reed, the truth is, to the outside listener, you sound pretty much like...you. It's not that gear doesn't affect your sound at all, but your biggest and richest sound will only come by developing the skills within both your body and mind to sound great on any setup.</p>
+
+<p>So if you're willing to move beyond having your day ruined by a lousy reed, then sax legend David Liebman's course, <em>Ultimate Guide to Saxophone Sound Production</em> is where you're going to want to go next. Broken down into bite-sized lessons, this streaming video program covers just about every single aspect of saxophone sound production. It represents his entire life's work teaching the techniques and concepts that were handed down to masters such as Michael Brecker, Bob Berg, and Harvey Pittel (among many others), and then refined over the course of decades teaching countless lessons and masterclasses worldwide. Click below to see for yourself why so many professional saxophonists consider David's thorough, methodical, and practical approach the \"real deal\" for players at <em>any</em> level.</p>";
 $DisplayUrl1 = "SAXOPHONETONE.COM";
 $Alt1 = "The Ultimate Guide to Saxophone Sound Production";
 $ProductName1 = "Ready to Start Loving Your Sound, Even on a Lousy Reed?";
@@ -42,14 +44,25 @@ $slot_name1 = "UGSSP FB-Style Featured Ad - START LOVING YOUR SOUND";
 // $ad_name1= "ugssp-ad-lieb-arm-up-playing";
 // $slot_name1= "UGSSP FB-Style AD - Lieb Arm Up";
 
-$Img2 = get_bloginfo('url') . "/wp-content/uploads/lfcc-minor-3rd-1up-1down.jpg";
+
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/LFCC-FB-multi-V2.jpg";
 $Cta2 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
 $MainText2 = "<p>Recording artist and master class clinician, Adam Larson shares his proven system for building technique in a way that not only uncovers and removes your technical \"blind spots\", but also opens you up to a whole new world of jazz improv vocabulary. Even if you don't have a ton of time to practice each week, if you're ready to move out of your comfort zone in a fun and inspiring way, then click the picture below and check the program out for yourself!</p>";
 $ProductName2 = "Lightning-Fast and Crystal-Clean Saxophone Technique";
 $DisplayUrl2 = "SAXTECHNIQUE.COM";
 $Url2 = "http://saxtechnique.com";
-$ad_name2 = "lfcc-minor-3rd-1up-1down";
-$slot_name2 = "LFCC FB-Style Featured Ad - Minor 3rd Up and Down";
+$ad_name2 = "lfcc-multi-1";
+$slot_name2 = "LFCC FB-Style Featured Ad - Multi-1";
+
+
+// $Img2 = get_bloginfo('url') . "/wp-content/uploads/lfcc-minor-3rd-1up-1down.jpg";
+// $Cta2 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+// $MainText2 = "<p>Recording artist and master class clinician, Adam Larson shares his proven system for building technique in a way that not only uncovers and removes your technical \"blind spots\", but also opens you up to a whole new world of jazz improv vocabulary. Even if you don't have a ton of time to practice each week, if you're ready to move out of your comfort zone in a fun and inspiring way, then click the picture below and check the program out for yourself!</p>";
+// $ProductName2 = "Lightning-Fast and Crystal-Clean Saxophone Technique";
+// $DisplayUrl2 = "SAXTECHNIQUE.COM";
+// $Url2 = "http://saxtechnique.com";
+// $ad_name2 = "lfcc-minor-3rd-1up-1down";
+// $slot_name2 = "LFCC FB-Style Featured Ad - Minor 3rd Up and Down";
 
 // $Img4 = get_bloginfo('url') . "/wp-content/uploads/fb-stacked-4ths-screencap.jpg";
 // $Cta4 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
