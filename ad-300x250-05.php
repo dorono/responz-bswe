@@ -14,16 +14,16 @@ $Url2 = "https://jodyjazz.com/power-ring-ligature/";
 $ad_name2 = "jodyjazz_power_ring_REVISED";
 $slot_name2 = "Jody Jazz Slot 2 - 300x250";
 
-$Img3 = get_bloginfo('url') . "/wp-content/uploads/RovnerAd_reliability-sensibleprice.jpg";
+$Img3 = get_bloginfo('url') . "/wp-content/uploads/RovnerAd_072420.jpg";
 $Alt3 = "Rovner";
 $Url3 = "https://www.rovnerproducts.com/";
-$ad_name3 = "RovnerAd_reliability-sensibleprice";
+$ad_name3 = "RovnerAd_great-relationship";
 $slot_name3 = "Rovner 300x250";
 
-$Img4 = get_bloginfo('url') . "/wp-content/uploads/RovnerAd_reliability-sensibleprice.jpg";
+$Img4 = get_bloginfo('url') . "/wp-content/uploads/RovnerAd_072420.jpg";
 $Alt4 = "Rovner";
 $Url4 = "https://www.rovnerproducts.com/";
-$ad_name4 = "RovnerAd_reliability-sensibleprice";
+$ad_name4 = "RovnerAd_great-relationship";
 $slot_name4 = "Rovner 300x250";
 
 $num = mt_rand (1,4);
