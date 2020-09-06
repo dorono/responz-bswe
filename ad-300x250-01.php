@@ -1,28 +1,16 @@
 <?php
 
-$Img1 = get_bloginfo('url') . "/wp-content/uploads/multiple-artists-end-of-summer-sale-700x366-1.jpg";
+$Img1 = get_bloginfo('url') . "/wp-content/uploads/liebman-multi.jpg";
 $Cta1 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
-$MainText1 = "<p>InfiniteMusician.com is offering a rare opportunity to get 25% off of all courses on the website. These powerful and popular learning programs feature masters like David Liebman, Bob Mintzer, Bob Sheppard, Adam Larson, Rick Margitza, Walt Weiskopf, and other heavyweights.</p>
+$MainText1 = "<p>Regardless of your horn, mouthpiece, or reed, the truth is, to the outside listener, you sound pretty much like...you. It's not that gear doesn't affect your sound at all, but your biggest and richest sound will only come by developing the skills within both your body and mind to sound great on any setup.</p>
 
-<p>To get this discount, just fill out 3 multiple-choice questions about your practice rountine, and the coupon code will immediately be sent right to your inbox. And no - <em>this isn't a ploy to sign you up for something else</em>. We literally, just want your answers to help us design future courses. In return, you get to save a bunch of money on some truly game-changing courses.</p>";
-$DisplayUrl1 = "INFINITEMUSICIAN.COM";
-$Alt1 = "Infinite Musician's 25% Off End of Summer Sale";
-$ProductName1 = "25% Off of ALL Courses on InfiniteMusician.com";
-$Url1 = "https://www.bestsaxophonewebsiteever.com/infinitemusician-25-off-summer-sale/";
-$ad_name1 = "im-end-of-summer-sale-2020";
-$slot_name1 = "IM FB-Style Featured Ad - END OF SUMMER SALE";
-
-// $Img1 = get_bloginfo('url') . "/wp-content/uploads/liebman-multi.jpg";
-// $Cta1 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
-// $MainText1 = "<p>Regardless of your horn, mouthpiece, or reed, the truth is, to the outside listener, you sound pretty much like...you. It's not that gear doesn't affect your sound at all, but your biggest and richest sound will only come by developing the skills within both your body and mind to sound great on any setup.</p>
-
-// <p>So if you're willing to move beyond having your day ruined by a lousy reed, then sax legend David Liebman's course, <em>Ultimate Guide to Saxophone Sound Production</em> is where you're going to want to go next. Broken down into bite-sized lessons, this streaming video program covers just about every single aspect of saxophone sound production. It represents his entire life's work teaching the techniques and concepts that were handed down to masters such as Michael Brecker, Bob Berg, and Harvey Pittel (among many others), and then refined over the course of decades teaching countless lessons and masterclasses worldwide. Click below to see for yourself why so many professional saxophonists consider David's thorough, methodical, and practical approach the \"real deal\" for players at <em>any</em> level.</p>";
-// $DisplayUrl1 = "SAXOPHONETONE.COM";
-// $Alt1 = "The Ultimate Guide to Saxophone Sound Production";
-// $ProductName1 = "Ready to Start Loving Your Sound, Even on a Lousy Reed?";
-// $Url1 = "http://saxophonetone.com";
-// $ad_name1 = "ugssp-ad-v1-start-loving-your-sound";
-// $slot_name1 = "UGSSP FB-Style Featured Ad - START LOVING YOUR SOUND";
+<p>So if you're willing to move beyond having your day ruined by a lousy reed, then sax legend David Liebman's course, <em>Ultimate Guide to Saxophone Sound Production</em> is where you're going to want to go next. Broken down into bite-sized lessons, this streaming video program covers just about every single aspect of saxophone sound production. It represents his entire life's work teaching the techniques and concepts that were handed down to masters such as Michael Brecker, Bob Berg, and Harvey Pittel (among many others), and then refined over the course of decades teaching countless lessons and masterclasses worldwide. Click below to see for yourself why so many professional saxophonists consider David's thorough, methodical, and practical approach the \"real deal\" for players at <em>any</em> level.</p>";
+$DisplayUrl1 = "SAXOPHONETONE.COM";
+$Alt1 = "The Ultimate Guide to Saxophone Sound Production";
+$ProductName1 = "Ready to Start Loving Your Sound, Even on a Lousy Reed?";
+$Url1 = "http://saxophonetone.com";
+$ad_name1 = "ugssp-ad-v1-start-loving-your-sound";
+$slot_name1 = "UGSSP FB-Style Featured Ad - START LOVING YOUR SOUND";
 
 
 // $Img1 = get_bloginfo('url') . "/wp-content/uploads/liebman-multi.jpg";
@@ -36,16 +24,16 @@ $slot_name1 = "IM FB-Style Featured Ad - END OF SUMMER SALE";
 // $ad_name1 = "ugssp-ad-v1-only-course";
 // $slot_name1 = "UGSSP FB-Style Featured Ad - ONLY COURSE";
 
-// $Img2 = get_bloginfo('url') . "/wp-content/uploads/UGSSP-Sales-Page-Hero-FB.jpg";
-// $Cta2 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
-// $MainText2 = "<p>Flashy technique and altissimo are all fine and good, but a rich, powerful, and distinctive saxophone sound that truly grabs your listeners is the hallmark of any great player. Thing is, without the correct methods, you're likely to waste time, looking for the perfect setup and trying to make sense of vague and conflicting instruction from books, videos, and private teachers.</p>
-// <p>Luckily, sax legend David Liebman, one of the world's foremost experts on saxophone sound production, takes you on a step-by-step journey through the method used by legends such as Michael Brecker, Bob Berg, and other masters. Starting from your mental concept of sound, to the breath, to the throat and the oral cavity (lots of cool overtone exercises here!), to the embouchure, and then on to expressive effects and working on reeds - Dave covers <em>everything</em> you need to develop the sort of sound that turns heads - <strong><em>from the first note</em></strong>.</p>";
-// $DisplayUrl2 = "SAXOPHONETONE.COM";
-// $Alt2 = "The Ultimate Guide to Saxophone Sound Production";
-// $ProductName2 = "The Ultimate Guide to Saxophone Sound Production";
-// $Url2 = "http://saxophonetone.com";
-// $ad_name2 = "ugssp-ad-how-many-notes";
-// $slot_name2 = "UGSSP FB-Style Featured Ad - How Many Notes";
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/UGSSP-Sales-Page-Hero-FB.jpg";
+$Cta2 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+$MainText2 = "<p>Flashy technique and altissimo are all fine and good, but a rich, powerful, and distinctive saxophone sound that truly grabs your listeners is the hallmark of any great player. Thing is, without the correct methods, you're likely to waste time, looking for the perfect setup and trying to make sense of vague and conflicting instruction from books, videos, and private teachers.</p>
+<p>Luckily, sax legend David Liebman, one of the world's foremost experts on saxophone sound production, takes you on a step-by-step journey through the method used by legends such as Michael Brecker, Bob Berg, and other masters. Starting from your mental concept of sound, to the breath, to the throat and the oral cavity (lots of cool overtone exercises here!), to the embouchure, and then on to expressive effects and working on reeds - Dave covers <em>everything</em> you need to develop the sort of sound that turns heads - <strong><em>from the first note</em></strong>.</p>";
+$DisplayUrl2 = "SAXOPHONETONE.COM";
+$Alt2 = "The Ultimate Guide to Saxophone Sound Production";
+$ProductName2 = "The Ultimate Guide to Saxophone Sound Production";
+$Url2 = "http://saxophonetone.com";
+$ad_name2 = "ugssp-ad-how-many-notes";
+$slot_name2 = "UGSSP FB-Style Featured Ad - How Many Notes";
 
 // $Img1= get_bloginfo('url') . "/wp-content/uploads/lieb-arm-up-playing.jpg";
 // $Cta1= get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
@@ -67,18 +55,18 @@ $slot_name1 = "IM FB-Style Featured Ad - END OF SUMMER SALE";
 // $ad_name2 = "lfcc-multi-1";
 // $slot_name2 = "LFCC FB-Style Featured Ad - Multi-1";
 
-// $Img2 = get_bloginfo('url') . "/wp-content/uploads/LFCC-FB-multi-V2.jpg";
-// $Cta2 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
-// $MainText2 = "<p>Obviously, there's more to great sax playing than playing a bunch of fast notes. But without being able to get around the horn quickly and smoothly, you can't move your audience with that feeling of musical adrenaline that got you excited about the sax in the first place.</p>
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/LFCC-FB-multi-V2.jpg";
+$Cta2 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+$MainText2 = "<p>Obviously, there's more to great sax playing than playing a bunch of fast notes. But without being able to get around the horn quickly and smoothly, you can't move your audience with that feeling of musical adrenaline that got you excited about the sax in the first place.</p>
 
-// <p>The problem is that too many of us feel like practicing boring scales and arpeggios is part of the dues we all have to pay, without realizing that practicing technique can be a fun and creative process. </p>
+<p>The problem is that too many of us feel like practicing boring scales and arpeggios is part of the dues we all have to pay, without realizing that practicing technique can be a fun and creative process. </p>
 
-// <p>With his new streaming video course focused 100% on technique, renowned recording artist, Adam Larson takes you way beyond what \"falls easily under the fingers\". Instead, he gets you rooting out anything that might be tripping up your fingers - all while adding new melodic and harmonic sounds to your vocabulary. So if you're ready to tear it up without wanting to tear out your hair, click below and let's get started today!</p>";
-// $ProductName2 = "Lightning-Fast and Crystal-Clean Saxophone Technique";
-// $DisplayUrl2 = "SAXTECHNIQUE.COM";
-// $Url2 = "http://saxtechnique.com";
-// $ad_name2 = "lfcc-multi-1";
-// $slot_name2 = "LFCC FB-Style Featured Ad - Multi-1";
+<p>With his new streaming video course focused 100% on technique, renowned recording artist, Adam Larson takes you way beyond what \"falls easily under the fingers\". Instead, he gets you rooting out anything that might be tripping up your fingers - all while adding new melodic and harmonic sounds to your vocabulary. So if you're ready to tear it up without wanting to tear out your hair, click below and let's get started today!</p>";
+$ProductName2 = "Lightning-Fast and Crystal-Clean Saxophone Technique";
+$DisplayUrl2 = "SAXTECHNIQUE.COM";
+$Url2 = "http://saxtechnique.com";
+$ad_name2 = "lfcc-multi-1";
+$slot_name2 = "LFCC FB-Style Featured Ad - Multi-1";
 
 
 
@@ -121,17 +109,17 @@ $slot_name1 = "IM FB-Style Featured Ad - END OF SUMMER SALE";
 // $ad_name3 = "ugssp-ad-v1";
 // $slot_name3 = "UGSSP FB-Style AD - Lieb Embouchure Closeup";
 
-// $Img3 = get_bloginfo('url') . "/wp-content/uploads/liebman-mintzer-sheppard.jpg";
-// $Cta3 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
-// $MainText3 = "<p>World-renowned jazz saxophone heavyweights, Dave Liebman, Bob Mintzer, and Bob Sheppard share techniques and concepts to get you playing mind-blowing solos without relying on \"licks\".</p><p>With decades of experience playing with the likes of  Miles Davis, Chick Corea, Art Blakey, James Taylor, and countless others, these masters step you through the methods that they used to simplify the process of expanding their improvisational \"vocabulary\", and becoming well-rounded jazz musicians overall. In this unique and powerful course, you'll learn to use techniques such as superimposing \"post-Coltrane-style\" alternative harmonies, using modes to build colorful and compelling solos, using rhythm in unexpected ways, building off the melody of a tune, and tons more.</p>";
-// $DisplayUrl3 = "JAZZLESSONSWITHGIANTS.COM";
-// $Alt3 = "Jazz Lessons with Giants";
-// $ProductName3 = "Play Hip, Original Lines";
-// $Url3 = "http://www.jazzlessonswithgiants.com/";
-// $ad_name3 = "jlwg-all-3-v1";
-// $slot_name3 = "JLWG FB-Style AD - All 3 V1";
+$Img3 = get_bloginfo('url') . "/wp-content/uploads/liebman-mintzer-sheppard.jpg";
+$Cta3 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+$MainText3 = "<p>World-renowned jazz saxophone heavyweights, Dave Liebman, Bob Mintzer, and Bob Sheppard share techniques and concepts to get you playing mind-blowing solos without relying on \"licks\".</p><p>With decades of experience playing with the likes of  Miles Davis, Chick Corea, Art Blakey, James Taylor, and countless others, these masters step you through the methods that they used to simplify the process of expanding their improvisational \"vocabulary\", and becoming well-rounded jazz musicians overall. In this unique and powerful course, you'll learn to use techniques such as superimposing \"post-Coltrane-style\" alternative harmonies, using modes to build colorful and compelling solos, using rhythm in unexpected ways, building off the melody of a tune, and tons more.</p>";
+$DisplayUrl3 = "JAZZLESSONSWITHGIANTS.COM";
+$Alt3 = "Jazz Lessons with Giants";
+$ProductName3 = "Play Hip, Original Lines";
+$Url3 = "http://www.jazzlessonswithgiants.com/";
+$ad_name3 = "jlwg-all-3-v1";
+$slot_name3 = "JLWG FB-Style AD - All 3 V1";
 
-$num = rand (1,1);
+$num = rand (1,3);
 
 $Image = ${'Img'.$num};
 $Cta = ${'Cta'.$num};
