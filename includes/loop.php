@@ -70,9 +70,9 @@ global $themify; ?>
 
             <?php if (!is_front_page() && !is_archive() && !is_search()) { ?>
                 <div class="social_icons" style="margin-bottom: 10px;">
-                    <div style="overflow: hidden;">
+                    <!-- <div style="overflow: hidden;">
                         <div><?php echo fb_like_button(); ?></div>
-                    </div>
+                    </div> -->
                     <div style="margin-bottom: 15px;">
                         <div class="sharethis-inline-share-buttons"></div>
                     </div>
