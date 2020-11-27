@@ -99,7 +99,7 @@
     BSWE.distributeAds({
       contentContainer: '#loops-wrapper',
       adDivider: 'article',
-      frequency: 2,
+      frequency: 1,
     });
   } else {
     BSWE.distributeAds({
