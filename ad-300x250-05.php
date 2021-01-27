@@ -2,16 +2,16 @@
 
 // ADS 5 & 6
 
-$Img1 = get_bloginfo('url') . "/wp-content/uploads/BestSax_HR_Custom_Dark_Tenor_300x250.jpg";
-$Alt1 = "JodyJazz - HR* CUSTOM DARK Tenor";
-$Url1 = "https://jodyjazz.com/hr-custom-dark-tenor/";
-$ad_name1 = "jodyjazz_custom_dark_tenor";
+$Img1 = get_bloginfo('url') . "/wp-content/uploads/HR_Custom_Dark_BestSax_Jan21_300x250.jpg";
+$Alt1 = "HR* CUSTOM DARK Series";
+$Url1 = "https://jodyjazz.com/hr-custom-dark-series-saxophone-mouthpieces/";
+$ad_name1 = "HR_Custom_Dark_BestSax_Jan21_300x250";
 $slot_name1 = "Jody Jazz Slot 1 - 300x250";
 
-$Img2 = get_bloginfo('url') . "/wp-content/uploads/REVISED_BestSax_PowerRing_300x250.jpg";
-$Alt2 = "JodyJazz - POWER RING Ligature";
-$Url2 = "https://jodyjazz.com/power-ring-ligature/";
-$ad_name2 = "jodyjazz_power_ring_REVISED";
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/RousseauAd_BestSax_Jan21_300x250.jpg";
+$Alt2 = "Rousseau Introduction ";
+$Url2 = "https://rousseaumouthpieces.com";
+$ad_name2 = "RousseauAd_BestSax_Jan21_300x250";
 $slot_name2 = "Jody Jazz Slot 2 - 300x250";
 
 $Img3 = get_bloginfo('url') . "/wp-content/uploads/RovnerAd_072420.jpg";
