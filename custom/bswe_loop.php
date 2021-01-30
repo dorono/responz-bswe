@@ -27,7 +27,10 @@ global $themify; ?>
 				<?php if( 'yes' == $themify->unlink_image): ?>
 					<?php echo $post_image; ?>
 				<?php else: ?>
-					<a href="<?php echo themify_get_featured_image_link(); ?>"><?php echo $post_image; ?><?php themify_zoom_icon(); ?></a>
+        <?php $external_product_page_url = get_post_meta( get_the_ID(), 'external_product_page_url', true); ?>
+
+
+					<a href="<?php echo $external_product_page_url ?>"><?php echo $post_image; ?><?php themify_zoom_icon(); ?></a>
 				<?php endif; // unlink image ?>
 			</figure>
                 <?php if (is_front_page() || is_archive()) { ?>
@@ -55,6 +58,7 @@ global $themify; ?>
 <?php $external_product_page_url = get_post_meta( get_the_ID(), 'external_product_page_url', true); ?>
 
                     <h1 class="post-title entry-title" itemprop="name"><a href="<?php echo $external_product_page_url ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+
                 <?php endif; //unlink post title ?>
                 <?php themify_after_post_title(); // Hook ?>
 		<?php endif; //post title ?>
@@ -83,7 +87,6 @@ global $themify; ?>
 
 
             <div class="entry-content" style="padding-top: 10px" itemprop="articleBody">
-
 		<?php if ( 'excerpt' == $themify->display_content && ! is_attachment() ) : ?>
 
 			<?php the_excerpt(); ?>

@@ -22,7 +22,13 @@ global $themify; ?>
     	<?php themify_content_before(); //hook ?>
 		<!-- content -->
 		<div id="content" class="clearfix">
+    				<?php if($themify->page_title != "yes"): ?>
+					<h1 class="page-title" itemprop="name"><?php the_title(); ?></h1>
+				<?php endif; ?>
+        <?php the_content() ?>
+				<!-- /page-title -->
 			<?php dynamic_sidebar('homepage-newsletter'); ?>
+			<!-- page-title -->
 
         	<?php themify_content_start(); //hook ?>
 
