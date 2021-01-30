@@ -1,0 +1,556 @@
+/* FONTS */
+/* FONT COLORS */
+/* BACKGROUND COLORS */
+/* BREAKPOINTS */
+/* newsletter signup */
+/* MISC */
+@font-face {
+  font-family: "SkinBones";
+  src: url('/fonts/normal');
+  src: url('/fonts/normal?#iefix') format('embedded-opentype'), url(/wp-content/themes/responz/fonts/skin__bones-webfont.woff) format('woff'), url(/wp-content/themes/responz/fonts/skin__bones-webfont.ttf) format('truetype'), url(/wp-content/themes/responz/fonts/skin__bones-webfont.svg) format('svg'), url(/wp-content/themes/responz/fonts/skin__bones-webfont.eot) format('embedded-opentype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Cabin";
+  src: url('/fonts/normal');
+  src: url('/fonts/normal?#iefix') format('embedded-opentype'), url(/wp-content/themes/responz/fonts/cabin-regular-webfont.woff) format('woff'), url(/wp-content/themes/responz/fonts/cabin-regular-webfont.ttf) format('truetype'), url(/wp-content/themes/responz/fonts/cabin-regular-webfont.svg) format('svg'), url(/wp-content/themes/responz/fonts/cabin-regular-webfont.eot) format('embedded-opentype');
+  font-weight: normal;
+}
+/* line 71, ../../sass/_bswe.scss */
+body {
+  background-image: none;
+  color: #333;
+  font-family: Cabin, Arial, sans-serif;
+    /* this is for the accordion menu, out of commission for now
+    .widget_taxonomy_list_widget {
+        position: relative;
+
+        h4 {
+            background: $bgcolor-2;
+            color: $text-color-2;
+            cursor: pointer;
+            font: {
+                family: $main-font;
+                size: 18px;
+                weight: bold;
+            }
+            padding: 10px;
+            line-height: 1em;
+            text-align: left;
+
+            @media screen and (min-width: $medium) {
+                font-size: 14px;
+            }
+
+            @media screen and (min-width: $medium) and (max-width: $medium-large) {
+                text-align: center;
+            }
+        }
+
+        span {
+            cursor: pointer;
+            width: 0;
+            height: 0;
+            position: absolute;
+            right: 10px;
+
+            &.open {
+                border-left: 12px solid transparent;
+                border-right: 12px solid transparent;
+                border-top: 12px solid $text-color-2;
+                top: 13px;
+
+                @media screen and (min-width: $medium) {
+                    border-left-width: 7px;
+                    border-right-width: 7px;
+                    border-top-width: 7px;
+                    top: 12px;
+                }
+            }
+
+            &.closed {
+                border-top: 12px solid transparent;
+                border-bottom: 12px solid transparent;
+                border-left: 12px solid $text-color-2;
+                top: 6px;
+
+                @media screen and (min-width: $medium) {
+                    border-top-width: 7px;
+                    border-bottom-width: 7px;
+                    border-left-width: 7px;
+                    top: 8px;
+                }
+            }
+
+            @media screen and (min-width: $medium) and (max-width: $medium-large) {
+                display: none;
+            }
+        }
+
+
+        ul {
+            display: none;
+        }
+    }*/
+}
+/* line 76, ../../sass/_bswe.scss */
+body p {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+/* line 82, ../../sass/_bswe.scss */
+body #article-bottom-nl h2 {
+  border-top: 1px solid #000;
+  font-family: Cabin, Arial, sans-serif;
+  font-style: normal;
+  padding: 5px 0 0;
+}
+/* line 92, ../../sass/_bswe.scss */
+body #contentwrap,
+body #sidebar {
+  padding-top: 0;
+}
+/* line 97, ../../sass/_bswe.scss */
+body #content,
+body #sidebar,
+body #sidebar-alt {
+  padding-top: 10px;
+}
+/* line 103, ../../sass/_bswe.scss */
+body #content {
+  background: #fff;
+}
+/* line 107, ../../sass/_bswe.scss */
+body #body > div:first-child {
+  background: #e2e2e2;
+}
+/* line 110, ../../sass/_bswe.scss */
+body #body > div:first-child .banner728 {
+  margin: 0;
+  max-height: 90px;
+  text-align: center;
+  padding: 10px;
+}
+/* line 119, ../../sass/_bswe.scss */
+body footer .col3-1 {
+  height: 75px;
+}
+/* line 123, ../../sass/_bswe.scss */
+body footer .col3-1 #social-widget-3 h4 {
+  text-align: right;
+}
+/* line 132, ../../sass/_bswe.scss */
+body #header-slider.slider img {
+  border: 1px solid #ccc;
+}
+/* line 137, ../../sass/_bswe.scss */
+body #header-slider.slider .slide-post-title a {
+  font-family: Cabin, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 148, ../../sass/_bswe.scss */
+body #headerwrap {
+  background: #000;
+}
+/* line 151, ../../sass/_bswe.scss */
+body #headerwrap #header {
+  background-image: url("/wp-content/themes/responz/images/bswe-sax.png");
+  background-repeat: no-repeat;
+  height: 172px;
+}
+@media screen and (min-width: 520px) {
+  /* line 151, ../../sass/_bswe.scss */
+  body #headerwrap #header {
+    border-bottom: none;
+  }
+}
+/* line 162, ../../sass/_bswe.scss */
+body #headerwrap #header hgroup {
+  padding-left: 66px;
+}
+/* line 167, ../../sass/_bswe.scss */
+body #headerwrap #header a#advertise-link {
+  color: #9CCFEE;
+}
+@media screen and (max-width: 480px) {
+  /* line 172, ../../sass/_bswe.scss */
+  body #headerwrap #header #searchform-wrap {
+    position: relative;
+  }
+}
+/* line 178, ../../sass/_bswe.scss */
+body #headerwrap #header #site-logo,
+body #headerwrap #header #site-description {
+  width: 300px;
+}
+@media screen and (max-width: 600px) {
+  /* line 178, ../../sass/_bswe.scss */
+  body #headerwrap #header #site-logo,
+  body #headerwrap #header #site-description {
+    width: 212px;
+  }
+}
+/* line 188, ../../sass/_bswe.scss */
+body #headerwrap #header #site-logo {
+  padding-top: 0;
+  top: 0;
+}
+/* line 192, ../../sass/_bswe.scss */
+body #headerwrap #header #site-logo a {
+  color: #9CCFEE;
+  font-family: SkinBones, sans-serif, Arial, Helvetica;
+  font-size: 44px;
+  font-style: normal;
+}
+/* line 200, ../../sass/_bswe.scss */
+body #headerwrap #header #site-logo a span {
+  display: block;
+  line-height: 1em;
+}
+@media screen and (max-width: 600px) {
+  /* line 192, ../../sass/_bswe.scss */
+  body #headerwrap #header #site-logo a {
+    font-size: 38px;
+  }
+}
+/* line 211, ../../sass/_bswe.scss */
+body #headerwrap #header #site-description {
+  color: #fff;
+  top: 94px;
+}
+/* line 218, ../../sass/_bswe.scss */
+body #headerwrap #header .social-widget .rss a {
+  color: #fff;
+}
+@media screen and (min-width: 760px) and (max-width: 850px) {
+  /* line 225, ../../sass/_bswe.scss */
+  body #headerwrap #header #text-13 img {
+    max-width: 400px;
+  }
+}
+/* line 233, ../../sass/_bswe.scss */
+body #headerwrap #text-16 {
+  color: #fff;
+  font-style: italic;
+  margin: 0 auto;
+  max-width: 970px;
+  padding: 10px 3% 0;
+}
+/* line 240, ../../sass/_bswe.scss */
+body #headerwrap #text-16 a {
+  color: #fff;
+}
+/* line 245, ../../sass/_bswe.scss */
+body #headerwrap #main-nav {
+  font-family: Cabin, Arial, sans-serif;
+}
+/* line 248, ../../sass/_bswe.scss */
+body #headerwrap #main-nav a {
+  color: #fff;
+  min-height: 20px;
+}
+@media screen and (max-width: 480px) {
+  /* line 248, ../../sass/_bswe.scss */
+  body #headerwrap #main-nav a {
+    color: #333;
+  }
+}
+@media screen and (max-width: 520px) {
+  /* line 248, ../../sass/_bswe.scss */
+  body #headerwrap #main-nav a {
+    font-size: 13px;
+  }
+}
+/* line 263, ../../sass/_bswe.scss */
+body #headerwrap #main-nav .current_page_item a {
+  color: #fff;
+}
+/* line 269, ../../sass/_bswe.scss */
+body #headerwrap #top-nav {
+  float: right;
+  padding: 0;
+}
+/* line 274, ../../sass/_bswe.scss */
+body #headerwrap #top-nav li:last-child {
+  margin-right: 0;
+}
+/* line 278, ../../sass/_bswe.scss */
+body #headerwrap #top-nav li a {
+  color: #9ccfee;
+  font-weight: bold;
+}
+@media screen and (max-width: 760px) {
+  /* line 286, ../../sass/_bswe.scss */
+  body .hide-mobile {
+    display: none;
+  }
+}
+/* line 292, ../../sass/_bswe.scss */
+body .homepage-signup,
+body .sidebar_newsletter,
+body .article-bottom-signup {
+  padding: 10px;
+  background: #9CCFEE;
+  border: solid 1px #000;
+  text-align: left;
+  margin-bottom: 15px;
+}
+/* line 301, ../../sass/_bswe.scss */
+body .homepage-signup em,
+body .sidebar_newsletter em,
+body .article-bottom-signup em {
+  color: #333;
+}
+/* line 305, ../../sass/_bswe.scss */
+body .homepage-signup h3,
+body .homepage-signup h4,
+body .sidebar_newsletter h3,
+body .sidebar_newsletter h4,
+body .article-bottom-signup h3,
+body .article-bottom-signup h4 {
+  font-family: Cabin, Arial, sans-serif;
+  font-style: normal;
+  margin: 0 0 15px;
+  background: none;
+}
+/* line 315, ../../sass/_bswe.scss */
+body .homepage-signup h3,
+body .sidebar_newsletter h3,
+body .article-bottom-signup h3 {
+  background: #000;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  line-height: 1.2em;
+}
+/* line 325, ../../sass/_bswe.scss */
+body .homepage-signup h3 em,
+body .sidebar_newsletter h3 em,
+body .article-bottom-signup h3 em {
+  color: #fff;
+}
+/* line 330, ../../sass/_bswe.scss */
+body .homepage-signup h4,
+body .sidebar_newsletter h4,
+body .article-bottom-signup h4 {
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid #000;
+}
+/* line 336, ../../sass/_bswe.scss */
+body .homepage-signup input[type=text],
+body .sidebar_newsletter input[type=text],
+body .article-bottom-signup input[type=text] {
+  width: 400px;
+  font-size: 25px;
+  padding: 5px;
+  margin: 0 0 10px;
+}
+/* line 343, ../../sass/_bswe.scss */
+body .homepage-signup input[type=submit],
+body .sidebar_newsletter input[type=submit],
+body .article-bottom-signup input[type=submit] {
+  color: #fff;
+  background-color: #2b7534;
+}
+/* line 349, ../../sass/_bswe.scss */
+body .img-container {
+  max-height: 120px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 480px) {
+  /* line 349, ../../sass/_bswe.scss */
+  body .img-container {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 359, ../../sass/_bswe.scss */
+  body .img-container figure.left {
+    float: none;
+  }
+}
+/* line 367, ../../sass/_bswe.scss */
+body .loops-wrapper.grid2 .post,
+body .loops-wrapper.grid3 .post,
+body .loops-wrapper.grid4 .post {
+  clear: none;
+}
+/* line 372, ../../sass/_bswe.scss */
+body .loops-wrapper.grid2 .post .post-title,
+body .loops-wrapper.grid3 .post .post-title,
+body .loops-wrapper.grid4 .post .post-title {
+  clear: both;
+}
+/* line 379, ../../sass/_bswe.scss */
+body #loops-wrapper .sidebar-ads,
+body article .sidebar-ads {
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 760px) {
+  /* line 379, ../../sass/_bswe.scss */
+  body #loops-wrapper .sidebar-ads,
+  body article .sidebar-ads {
+    display: none;
+  }
+}
+/* line 388, ../../sass/_bswe.scss */
+body .mobile-ad {
+  display: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 480px) {
+  /* line 388, ../../sass/_bswe.scss */
+  body .mobile-ad {
+    display: block;
+  }
+}
+/* line 398, ../../sass/_bswe.scss */
+body #nav-bar {
+  min-height: inherit;
+  padding-top: 4px;
+}
+@media screen and (max-width: 600px) {
+  /* line 402, ../../sass/_bswe.scss */
+  body #nav-bar ul {
+    display: none;
+  }
+}
+/* line 408, ../../sass/_bswe.scss */
+body #nav-bar .jrsm-0 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+/* line 414, ../../sass/_bswe.scss */
+body .post-author {
+  color: #333;
+  font-style: normal;
+  font-weight: bold;
+}
+/* line 422, ../../sass/_bswe.scss */
+body .post {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 480px) {
+  /* line 425, ../../sass/_bswe.scss */
+  body .post .post-content {
+    clear: both;
+  }
+}
+/* line 430, ../../sass/_bswe.scss */
+body .post .post-content li {
+  font-size: 14px;
+}
+/* line 436, ../../sass/_bswe.scss */
+body #sidebar,
+body #sidebar-alt {
+  text-align: center;
+}
+/* line 445, ../../sass/_bswe.scss */
+body #sidebar .widget_recent_comments a,
+body #sidebar-alt .widget_recent_comments a {
+  font-style: italic;
+  text-decoration: underline;
+}
+/* line 449, ../../sass/_bswe.scss */
+body #sidebar .widget_recent_comments a:hover,
+body #sidebar-alt .widget_recent_comments a:hover {
+  text-decoration: none;
+}
+/* line 454, ../../sass/_bswe.scss */
+body #sidebar .widget_recent_comments li,
+body #sidebar-alt .widget_recent_comments li {
+  text-align: left;
+}
+/* line 460, ../../sass/_bswe.scss */
+body #sidebar h4.widgettitle,
+body #sidebar-alt h4.widgettitle {
+  background: #000;
+  color: #fff;
+  font-family: Cabin, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1em;
+  padding: 7px;
+}
+@media screen and (max-width: 760px) {
+  /* line 473, ../../sass/_bswe.scss */
+  body #sidebar .sidebar_newsletter,
+  body #sidebar-alt .sidebar_newsletter {
+    display: none;
+  }
+}
+/* line 480, ../../sass/_bswe.scss */
+body .sidebar-ads {
+  clear: both;
+  text-align: center;
+}
+/* line 485, ../../sass/_bswe.scss */
+body .sidebar-ads img.desktop-tablet-ad-img, body .sidebar-ads img.mobile-ad-img {
+  display: none;
+}
+@media screen and (min-width: 760px) {
+  /* line 490, ../../sass/_bswe.scss */
+  body .sidebar-ads img.desktop-tablet-ad-img {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 760px) {
+  /* line 496, ../../sass/_bswe.scss */
+  body .sidebar-ads img.mobile-ad-img {
+    display: inline-block;
+  }
+}
+/* line 504, ../../sass/_bswe.scss */
+body .social_icons {
+  margin-bottom: 10px;
+}
+/* line 507, ../../sass/_bswe.scss */
+body .social_icons p {
+  position: relative;
+}
+/* line 510, ../../sass/_bswe.scss */
+body .social_icons p span {
+  font-size: 17px;
+  position: absolute;
+  left: 99px;
+  top: 6px;
+}
+/* line 520, ../../sass/_bswe.scss */
+body .top-text-ad {
+  padding-bottom: 7px;
+}
+/* line 523, ../../sass/_bswe.scss */
+body .top-text-ad a {
+  color: #fff;
+  font-style: italic;
+  font-size: 14px;
+}
+/* line 602, ../../sass/_bswe.scss */
+body .writer_promo {
+  background-color: #f2ee8b;
+  padding: 10px;
+  border: #000 1px solid;
+}
+/* line 607, ../../sass/_bswe.scss */
+body .writer_promo h2 {
+  margin-top: 0;
+  font-family: Cabin, Arial, sans-serif;
+}
+/* line 612, ../../sass/_bswe.scss */
+body .writer_promo h4 {
+  margin: 0;
+}
+/* line 618, ../../sass/_bswe.scss */
+body .yarpp-related a {
+  font-weight: normal;
+}
+/* line 622, ../../sass/_bswe.scss */
+body .yarpp-related legend {
+  font-size: 18px;
+  font-weight: bold;
+}

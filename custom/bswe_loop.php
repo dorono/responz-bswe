@@ -50,9 +50,11 @@ global $themify; ?>
 		<?php if($themify->hide_title != "yes"): ?>
                 <?php themify_before_post_title(); // Hook ?>
                 <?php if($themify->unlink_title == "yes"): ?>
-                    <h1 class="post-title entry-title" itemprop="name"><?php the_title(); ?></h1>
+                    <h1 class="post-title entry-title" itemprop="name"><?php the_title(); ?> </h1>
                 <?php else: ?>
-                    <h1 class="post-title entry-title" itemprop="name"><a href="<?php echo themify_get_featured_image_link(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+<?php $external_product_page_url = get_post_meta( get_the_ID(), 'external_product_page_url', true); ?>
+
+                    <h1 class="post-title entry-title" itemprop="name"><a href="<?php echo $external_product_page_url ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
                 <?php endif; //unlink post title ?>
                 <?php themify_after_post_title(); // Hook ?>
 		<?php endif; //post title ?>

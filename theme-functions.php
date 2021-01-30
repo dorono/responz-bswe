@@ -56,13 +56,11 @@ function themify_theme_enqueue_scripts(){
 
 }
 
-
 function ra_pingback_recent_comments( $array ) {
 	$array['type'] = 'comment';
 	return $array;
 }
 add_filter( 'widget_comments_args', 'ra_pingback_recent_comments' );
-
 
 /**
  * Add JavaScript files if IE version is lower than 9
@@ -803,3 +801,5 @@ if( ! function_exists('themify_theme_comment') ) {
 }
 
 ?>
+
+
