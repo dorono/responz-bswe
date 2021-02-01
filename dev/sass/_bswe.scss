@@ -758,7 +758,10 @@ body {
 .page-template-shop {
   .loops-wrapper.store-products {
     article {
-      height: 280px;
+      a,
+      a * {
+        cursor: pointer;
+      }
 
       .entry-content {
         padding-top: 5px;

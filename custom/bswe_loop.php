@@ -30,7 +30,7 @@ global $themify; ?>
         <?php $external_product_page_url = get_post_meta( get_the_ID(), 'external_product_page_url', true); ?>
 
 
-					<a href="<?php echo $external_product_page_url ?>"><?php echo $post_image; ?><?php themify_zoom_icon(); ?></a>
+					<a target="_blank" href="<?php echo $external_product_page_url ?>"><?php echo $post_image; ?><?php themify_zoom_icon(); ?></a>
 				<?php endif; // unlink image ?>
 			</figure>
                 <?php if (is_front_page() || is_archive()) { ?>
@@ -57,7 +57,7 @@ global $themify; ?>
                 <?php else: ?>
 <?php $external_product_page_url = get_post_meta( get_the_ID(), 'external_product_page_url', true); ?>
 
-                    <h1 class="post-title entry-title" itemprop="name"><a href="<?php echo $external_product_page_url ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+                    <h1 class="post-title entry-title" itemprop="name"><a target="_blank" href="<?php echo $external_product_page_url ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 
                 <?php endif; //unlink post title ?>
                 <?php themify_after_post_title(); // Hook ?>

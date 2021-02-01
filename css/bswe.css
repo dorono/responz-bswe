@@ -664,11 +664,12 @@ body a.read-more:hover {
   padding: 0;
 }
 
-/* line 760, ../../sass/_bswe.scss */
-.page-template-shop .loops-wrapper.store-products article {
-  height: 280px;
+/* line 761, ../../sass/_bswe.scss */
+.page-template-shop .loops-wrapper.store-products article a,
+.page-template-shop .loops-wrapper.store-products article a * {
+  cursor: pointer;
 }
-/* line 763, ../../sass/_bswe.scss */
+/* line 766, ../../sass/_bswe.scss */
 .page-template-shop .loops-wrapper.store-products article .entry-content {
   padding-top: 5px;
 }
