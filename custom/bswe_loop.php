@@ -18,7 +18,7 @@ global $themify; ?>
 				echo $wp_embed->run_shortcode('[embed]' . themify_get('video_url') . '[/embed]');
 			?>
 
-		<?php elseif( $post_image = themify_get_image($themify->auto_featured_image . $themify->image_setting . "w=".$themify->width."&h=".$themify->height ) ) : ?>
+		<?php elseif( $post_image = themify_get_image($themify->auto_featured_image . $themify->image_setting ) ) : ?>
 
                 <?php if (is_front_page() || is_archive()) { ?>
                 <div class="img-container">

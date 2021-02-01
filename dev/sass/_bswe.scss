@@ -754,3 +754,15 @@ body {
     padding: 0;
   }
 }
+
+.page-template-shop {
+  .loops-wrapper.store-products {
+    article {
+      height: 280px;
+
+      .entry-content {
+        padding-top: 5px;
+      }
+    }
+  }
+}

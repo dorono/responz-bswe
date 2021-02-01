@@ -47,7 +47,7 @@ global $themify; ?>
 			<?php if (have_posts()) : ?>
 
 				<!-- loops-wrapper -->
-				<div id="loops-wrapper" class="loops-wrapper <?php echo $themify->layout . ' ' . $themify->post_layout; ?>">
+				<div id="loops-wrapper" class="store-products loops-wrapper grid12 firstcol<?php //echo $themify->layout . ' ' . $themify->post_layout; ?>">
 
 					<?php $query = new WP_Query( array('post_type' => 'products', 'posts_per_page' => 5 ) );
 while ( $query->have_posts() ) : $query->the_post(); ?>

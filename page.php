@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <?php dynamic_sidebar('top-728x90-ad'); ?>
 
 <?php
@@ -164,7 +163,7 @@ global $themify;
 	/////////////////////////////////////////////
 	if ($themify->layout != "sidebar-none"): get_sidebar(); endif; ?>
 
-	
+
 
 </div>
 <!-- /layout-container -->
