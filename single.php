@@ -11,31 +11,31 @@ global $themify; ?>
 
 	<!-- layout-container -->
 	<div id="layout" class="pagewidth clearfix">
-		
+
 		<div id="contentwrap">
-        	
+
             <?php themify_content_before(); //hook ?>
 			<!-- content -->
 			<div id="content" class="list-post">
             	<?php themify_content_start(); //hook ?>
-				
+
 				<?php get_template_part( 'includes/loop'); ?>
-		
+
 				<?php wp_link_pages(array('before' => '<p class="post-pagination"><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 
 				<?php dynamic_sidebar('article-bottom-newsletter'); ?>
-					
+
 				<?php get_template_part( 'includes/author-box', 'single'); ?>
-		
+
 				<?php get_template_part( 'includes/post-nav'); ?>
-		
+
 				<!-- comments -->
 				<?php if(!themify_check('setting-comments_posts')): ?>
 					<?php comments_template(); ?>
 				<?php endif; ?>
 				<!-- /comments -->
-				
-                <?php themify_content_end(); //hook ?>				
+
+                <?php themify_content_end(); //hook ?>
 			</div>
 			<!--/content -->
             <?php themify_content_after() //hook; ?>
@@ -45,13 +45,13 @@ global $themify; ?>
 
 <?php endwhile; ?>
 
-<?php 
+<?php
 /////////////////////////////////////////////
-// Sidebar							
+// Sidebar
 /////////////////////////////////////////////
 if ($themify->layout != "sidebar-none"): get_sidebar(); endif; ?>
 
 </div>
 <!-- layout-container -->
-	
+
 <?php get_footer(); ?>

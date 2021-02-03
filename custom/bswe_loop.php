@@ -47,9 +47,7 @@ global $themify; ?>
 
 	<div class="post-content">
 
-		<?php if($themify->hide_date != "yes"): ?>
-                <time datetime="<?php the_time('o-m-d') ?>" class="post-date entry-date updated" itemprop="datePublished"><?php echo get_the_date( apply_filters( 'themify_loop_date', '' ) ) ?></time>
-		<?php endif; //post date ?>
+		<?php //PREVIOUSLY POST DATE ?>
 
 		<?php if($themify->hide_title != "yes"): ?>
                 <?php themify_before_post_title(); // Hook ?>
@@ -76,45 +74,14 @@ global $themify; ?>
                 <?php themify_after_post_title(); // Hook ?>
 		<?php endif; //post title ?>
 
-		<?php if($themify->hide_meta != 'yes'): ?>
-			<p class="post-meta entry-meta">
-                    <span class="post-author">By <?php echo themify_get_author_link(); ?> <em>/</em></span>
-				<span class="post-category"><?php the_category(', ') ?> <em>/</em></span>
-                    <?php the_tags(' <span class="post-tag">', ', ', ' <!--<em>/</em>--></span>'); ?>
-                    <?php /* if( !themify_get('setting-comments_posts') && comments_open() ) : */?><!--
-                        <span class="post-comment"><?php /*comments_popup_link( __( '0 Comments', 'themify' ), __( '1 Comment', 'themify' ), __( '% Comments', 'themify' ) ); */?></span>
-                    --><?php /*endif; //post comment */?>
-			</p>
-		<?php endif; //post meta ?>
-
-            <?php if (!is_front_page() && !is_archive() && !is_search() && is_singular( 'product' )) { ?>
-                <div class="social_icons" style="margin-bottom: 10px;">
-                    <!-- <div style="overflow: hidden;">
-                        <div><?php echo fb_like_button(); ?></div>
-                    </div> -->
-                    <div style="margin-bottom: 15px;">
-                        <div class="sharethis-inline-share-buttons"></div>
-                    </div>
-                </div>
-            <?php } ?>
+		<?php
+      // POST META PREVIOUSLY WENT HERE
+      // POST SOCIAL ICONS PREVIOUSLY WENT HERE
+    ?>
 
 
             <div class="entry-content" style="padding-top: 10px" itemprop="articleBody">
-		<?php if ( 'excerpt' == $themify->display_content && ! is_attachment() ) : ?>
 
-			<?php the_excerpt(); ?>
-
-			<?php if( themify_check('setting-excerpt_more') ) : ?>
-                    <p><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute('echo=0'); ?>" class="more-link"><?php echo themify_check('setting-default_more_text')? themify_get('setting-default_more_text') : __('More &rarr;', 'themify') ?></a></p>
-			<?php endif; ?>
-
-		<?php elseif ( 'none' == $themify->display_content && ! is_attachment() ) : ?>
-
-		<?php else: ?>
-
-			<?php the_content(themify_check('setting-default_more_text')? themify_get('setting-default_more_text') : __('More &rarr;', 'themify')); ?>
-
-		<?php endif; //display content ?>
 
 		</div><!-- /.entry-content -->
 
@@ -126,4 +93,4 @@ global $themify; ?>
 
 </article>
 <!-- /.post -->
-<?php themify_post_after(); //hook ?>
+<?php //themify_post_after(); //hook ?>
