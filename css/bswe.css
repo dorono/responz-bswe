@@ -664,12 +664,57 @@ body a.read-more:hover {
   padding: 0;
 }
 
-/* line 761, ../../sass/_bswe.scss */
-.page-template-shop .loops-wrapper.store-products article a,
-.page-template-shop .loops-wrapper.store-products article a * {
-  cursor: pointer;
+/* line 762, ../../sass/_bswe.scss */
+.page-template-shop .loops-wrapper.store-products article figure img {
+  border: 2px solid #333;
 }
-/* line 766, ../../sass/_bswe.scss */
+/* line 767, ../../sass/_bswe.scss */
 .page-template-shop .loops-wrapper.store-products article .entry-content {
   padding-top: 5px;
+}
+
+/* line 774, ../../sass/_bswe.scss */
+.product-info-section {
+  width: 100%;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+/* line 779, ../../sass/_bswe.scss */
+.product-info-section .product-title-section {
+  float: left;
+  width: 75%;
+}
+/* line 784, ../../sass/_bswe.scss */
+.product-info-section .product-cta-section {
+  float: right;
+  width: 25%;
+  text-align: right;
+}
+/* line 789, ../../sass/_bswe.scss */
+.product-info-section .product-cta-section a {
+  background: #2b7534;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 35px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+/* line 800, ../../sass/_bswe.scss */
+.product-info-section .product-cta-section a:hover {
+  color: #ebb41d;
+}
+@media screen and (max-width: 600px) {
+  /* line 811, ../../sass/_bswe.scss */
+  .product-info-section .product-title-section,
+  .product-info-section .product-cta-section {
+    width: 100%;
+  }
+  /* line 816, ../../sass/_bswe.scss */
+  .product-info-section .product-cta-section {
+    text-align: center;
+    float: none;
+  }
 }

@@ -31,6 +31,7 @@ global $themify; ?>
 
 
 					<a target="_blank" href="<?php echo $external_product_page_url ?>"><?php echo $post_image; ?><?php themify_zoom_icon(); ?></a>
+
 				<?php endif; // unlink image ?>
 			</figure>
                 <?php if (is_front_page() || is_archive()) { ?>
@@ -56,8 +57,20 @@ global $themify; ?>
                     <h1 class="post-title entry-title" itemprop="name"><?php the_title(); ?> </h1>
                 <?php else: ?>
 <?php $external_product_page_url = get_post_meta( get_the_ID(), 'external_product_page_url', true); ?>
+              <div class="product-info-section">
 
-                    <h1 class="post-title entry-title" itemprop="name"><a target="_blank" href="<?php echo $external_product_page_url ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+                <div class="product-title-section">
+                  <h1 class="post-title entry-title" itemprop="name"><a target="_blank" href="<?php echo $external_product_page_url ?>" title="<?php the_title_attribute(); ?>">
+                    <?php the_title(); ?></a>
+                  </h1>
+                </div>
+
+                <div class="product-cta-section">
+                  <a href="<?php echo $external_product_page_url ?>" class="see-all" target="_blank">SEE ALL</a>
+                </div>
+
+              </div>
+
 
                 <?php endif; //unlink post title ?>
                 <?php themify_after_post_title(); // Hook ?>
