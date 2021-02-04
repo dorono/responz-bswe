@@ -68,8 +68,8 @@ global $themify; ?>
 			</p>
 		<?php endif; //post meta ?>
 
-            <?php if (!is_front_page() && !is_archive() && !is_search() && is_singular( 'product' )) { ?>
-                <div class="social_icons" style="margin-bottom: 10px;">
+            <?php if (!is_front_page() && !is_archive() && !is_search()) { ?>
+                <div class="social_icons">
                     <!-- <div style="overflow: hidden;">
                         <div><?php echo fb_like_button(); ?></div>
                     </div> -->
@@ -80,7 +80,7 @@ global $themify; ?>
             <?php } ?>
 
 
-            <div class="entry-content" style="padding-top: 10px" itemprop="articleBody">
+            <div class="entry-content" itemprop="articleBody">
 
 		<?php if ( 'excerpt' == $themify->display_content && ! is_attachment() ) : ?>
 

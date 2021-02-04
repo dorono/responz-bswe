@@ -819,3 +819,9 @@ body {
     }
   }
 }
+
+.fb-like {
+  &.fb_iframe_widget {
+    padding-bottom: 10px;
+  }
+}

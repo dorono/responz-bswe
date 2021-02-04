@@ -11,7 +11,7 @@
  *  @var object */
 global $themify; ?>
 
-<?php dynamic_sidebar('top-728x90-ad'); ?>
+<?php //dynamic_sidebar('top-728x90-ad'); ?>
 
 <!-- layout-container -->
 <div id="layout" class="clearfix pagewidth">

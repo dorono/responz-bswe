@@ -718,3 +718,8 @@ body a.read-more:hover {
     float: none;
   }
 }
+
+/* line 824, ../../sass/_bswe.scss */
+.fb-like.fb_iframe_widget {
+  padding-bottom: 10px;
+}
