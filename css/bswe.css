@@ -664,49 +664,33 @@ body a.read-more:hover {
   padding: 0;
 }
 
-/* line 761, ../../sass/_bswe.scss */
-.page-template-shop .loops-wrapper.store-products article figure {
-  margin: 0;
-}
-/* line 764, ../../sass/_bswe.scss */
+/* line 762, ../../sass/_bswe.scss */
 .page-template-shop .loops-wrapper.store-products article figure img {
-  border: solid #333;
-  border-width: 2px 2px 0 2px;
-  max-width: 100%;
-  display: block;
+  border: 2px solid #333;
 }
-/* line 772, ../../sass/_bswe.scss */
+/* line 767, ../../sass/_bswe.scss */
 .page-template-shop .loops-wrapper.store-products article .entry-content {
   padding-top: 5px;
 }
-/* line 776, ../../sass/_bswe.scss */
-.page-template-shop .loops-wrapper.store-products article .post-content {
-  min-width: 120px;
-  background-color: #9ccfee;
-  padding: 15px 15px 0 15px;
-  margin: 0 0 30px 0;
-  border: 1px solid;
-  border-width: 0 1px 1px 1px;
-}
 
-/* line 788, ../../sass/_bswe.scss */
+/* line 774, ../../sass/_bswe.scss */
 .product-info-section {
   width: 100%;
   padding-bottom: 10px;
   overflow: hidden;
 }
-/* line 793, ../../sass/_bswe.scss */
+/* line 779, ../../sass/_bswe.scss */
 .product-info-section .product-title-section {
   float: left;
   width: 75%;
 }
-/* line 798, ../../sass/_bswe.scss */
+/* line 784, ../../sass/_bswe.scss */
 .product-info-section .product-cta-section {
   float: right;
   width: 25%;
   text-align: right;
 }
-/* line 803, ../../sass/_bswe.scss */
+/* line 789, ../../sass/_bswe.scss */
 .product-info-section .product-cta-section a {
   background: #2b7534;
   color: #fff;
@@ -718,29 +702,32 @@ body a.read-more:hover {
   letter-spacing: 1px;
   text-decoration: none;
 }
-/* line 814, ../../sass/_bswe.scss */
+/* line 800, ../../sass/_bswe.scss */
 .product-info-section .product-cta-section a:hover {
   color: #ebb41d;
 }
 @media screen and (max-width: 600px) {
-  /* line 825, ../../sass/_bswe.scss */
+  /* line 811, ../../sass/_bswe.scss */
   .product-info-section .product-title-section,
   .product-info-section .product-cta-section {
     width: 100%;
-    text-align: center;
   }
-  /* line 831, ../../sass/_bswe.scss */
+  /* line 816, ../../sass/_bswe.scss */
   .product-info-section .product-cta-section {
+    text-align: center;
     float: none;
-  }
-  /* line 834, ../../sass/_bswe.scss */
-  .product-info-section .product-cta-section a {
-    display: inline-block;
-    margin-top: 5px;
   }
 }
 
-/* line 843, ../../sass/_bswe.scss */
-.fb-like.fb_iframe_widget {
-  padding-bottom: 10px;
+@media screen and (max-width: 8000px) {
+  /* line 824, ../../sass/_bswe.scss */
+  #rmp_menu_trigger-8393 {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 830, ../../sass/_bswe.scss */
+  #rmp_menu_trigger-8393 {
+    display: inline-block !important;
+  }
 }

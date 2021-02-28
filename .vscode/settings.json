@@ -1,6 +1,5 @@
 {
   "search.exclude": {
     "bu-*": true
-  },
-  "editor.formatOnSave": true
+  }
 }
