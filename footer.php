@@ -53,8 +53,12 @@ global $themify; ?>
 <!-- wp_footer -->
 <?php wp_footer(); ?>
 
+<!-- remember to include if (window.location.hostname === 'bestsaxophonewebsiteever.com') { -->
 <!-- BEGIN SHARPSPRING ADS TRACKING CODE -->
 <script type="text/javascript">
+  console.log('window.location.hostname', window.location.hostname)
+  if (window.location.hostname === 'www.bestsaxophonewebsiteever.com') {
+  console.log('executing code')
     var _ss = _ss || [];
     _ss.push(['_setDomain', 'https://koi-3QNPV4UII8.marketingautomation.services/net']);
     _ss.push(['_setAccount', 'KOI-4ELMYLYH54']);
@@ -63,13 +67,15 @@ global $themify; ?>
     // _pa.orderId = "myOrderId"; // OPTIONAL: attach unique conversion identifier to conversions
     // _pa.revenue = "19.99"; // OPTIONAL: attach dynamic purchase values to conversions
     // _pa.productId = "myProductId"; // OPTIONAL: Include product ID for use with dynamic ads
-(function() {
-    var ss = document.createElement('script');
-    ss.type = 'text/javascript'; ss.async = true;
-    ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'koi-3QNPV4UII8.marketingautomation.services/client/ss.js?ver=2.4.0';
-    var scr = document.getElementsByTagName('script')[0];
-    scr.parentNode.insertBefore(ss, scr);
-})();
+    (function() {
+        var ss = document.createElement('script');
+        ss.type = 'text/javascript'; ss.async = true;
+        ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'koi-3QNPV4UII8.marketingautomation.services/client/ss.js?ver=2.4.0';
+        var scr = document.getElementsByTagName('script')[0];
+        scr.parentNode.insertBefore(ss, scr);
+    })();
+  }
+
 </script>
 <!-- END SHARPSPRING ADS TRACKING CODE -->
 

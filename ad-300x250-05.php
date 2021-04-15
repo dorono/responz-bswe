@@ -2,10 +2,10 @@
 
 // ADS 5 & 6
 
-$Img1 = get_bloginfo('url') . "/wp-content/uploads/HR_Custom_Dark_BestSax_Jan21_300x250.jpg";
+$Img1 = get_bloginfo('url') . "/wp-content/uploads/HR_Custom_Dark_wSoprano_BestSax_2021_300x250.jpg";
 $Alt1 = "HR* CUSTOM DARK Series";
 $Url1 = "https://jodyjazz.com/hr-custom-dark-series-saxophone-mouthpieces/";
-$ad_name1 = "HR_Custom_Dark_BestSax_Jan21_300x250";
+$ad_name1 = "HR_Custom_Dark_wSoprano_BestSax_2021_300x250";
 $slot_name1 = "Jody Jazz Slot 1 - 300x250";
 
 $Img2 = get_bloginfo('url') . "/wp-content/uploads/RousseauAd_BestSax_Jan21_300x250.jpg";
