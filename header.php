@@ -75,7 +75,7 @@ global $themify; ?>
 </head>
 
 <body <?php body_class(); ?>>
-<div id="wptime-plugin-preloader"></div>
+
 <?php themify_body_start(); //hook ?>
 <div id="pagewrap" class="hfeed site">
 

@@ -80,6 +80,7 @@ body {
   background-image: none;
   color: $default-font-color;
   font-family: $main-font;
+  overflow-x: hidden;
 
   p,
   #content li,
@@ -495,6 +496,64 @@ body {
     }
   }
 
+  @media screen and (max-width: $small) {
+    .widget li {
+      padding: {
+        top: 15px;
+        bottom: 15px;
+      }
+      line-height: 1.95em;
+    }
+
+    .widget ul.tlw-list {
+      li {
+        padding: 10px;
+      }
+    }
+
+    #sidebar,
+    #sidebar-alt {
+      .widget_recent_comments {
+        padding: 10px 0;
+
+        a {
+          line-height: 1.75em;
+          display: inline-block;
+        }
+      }
+
+      h4 {
+        &.widgettitle {
+          background: $bgcolor-2;
+          color: $text-color-2;
+          font: {
+            family: $main-font;
+            size: 18px;
+            weight: bold;
+          }
+          line-height: 1em;
+          padding: 7px;
+        }
+      }
+
+      .sidebar_newsletter {
+        @media screen and (max-width: $medium) {
+          display: none;
+        }
+      }
+    }
+    .post-meta.entry-meta {
+      a {
+        display: inline-block;
+        line-height: 1.75em;
+        padding: {
+          left: 5px;
+          right: 5px;
+        }
+      }
+    }
+  }
+
   .post {
     margin-bottom: 0;
 
@@ -555,9 +614,13 @@ body {
   #sidebar,
   #sidebar-alt {
     .widget_recent_comments {
+      padding: 10px 0;
+
       a {
         font-style: italic;
         text-decoration: underline;
+        line-height: 1.75em;
+        display: inline-block;
 
         &:hover {
           text-decoration: none;
@@ -820,14 +883,40 @@ body {
   }
 }
 
-@media screen and (max-width: 8000px) {
-  #rmp_menu_trigger-8393 {
-    display: none !important;
-  }
+/* CUSTOM CSS PREVIOUSLY FROM WP ADMIN */
+body,
+body #sidebar h4.widgettitle,
+body #header-slider.slider .slide-post-title a,
+p,
+body .homepage-signup h3,
+body .homepage-signup h4,
+body .sidebar_newsletter h3,
+body .sidebar_newsletter h4,
+body .article-bottom-signup h3,
+body .article-bottom-signup,
+.post-meta,
+.footer-text,
+#footer h6,
+body .homepage-signup h3,
+body .homepage-signup h4,
+body .sidebar_newsletter h3,
+body .sidebar_newsletter h4,
+body .article-bottom-signup h3,
+body .article-bottom-signup h4,
+body .footer-nav a,
+body .post-date {
+  font-family: 'Roboto' !important;
 }
 
-@media screen and (max-width: $medium-small) {
-  #rmp_menu_trigger-8393 {
-    display: inline-block !important;
-  }
+body .footer-nav a {
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Crete Round';
 }

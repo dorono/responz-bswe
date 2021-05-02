@@ -7,10 +7,10 @@ global $themify; ?>
 
 <?php dynamic_sidebar('top-728x90-ad'); ?>
 <?php if (is_home() && !is_paged()) { get_template_part( 'includes/header-slider'); } ?>
-<?php if(is_front_page() && !is_paged()) { ?>
+<!-- <?php if(is_front_page() && !is_paged()) { ?>
   <div id="header-slider" class="pagewidth slider" style="visibility: visible;height: auto;">
     					<div class="carousel-wrap carousel-ready" style="position: relative;">
-  <?php dynamic_sidebar('top-homepage-slider'); ?></div></div>
+  <?php dynamic_sidebar('top-homepage-slider'); ?></div></div> -->
 <?php } ?>
 <!-- layout-container -->
 <div id="layout" class="clearfix pagewidth">
