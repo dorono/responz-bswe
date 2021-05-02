@@ -636,6 +636,14 @@ add_action('wp_head', 'themify_ie_standards_compliant');
 			'after_title' => '',
 		));
 		register_sidebar(array(
+			'name' => __('Top Homepage Slider', 'themify'),
+			'id' => 'top-homepage-slider',
+			'before_widget' => '<div id="%1$s">',
+			'after_widget' => '</div>',
+			'before_title' => '',
+			'after_title' => '',
+		));
+		register_sidebar(array(
 			'name' => __('Homepage Newsletter Signup', 'themify'),
 			'id' => 'homepage-newsletter',
 			'before_widget' => '<div id="%1$s">',
@@ -703,6 +711,14 @@ add_action('wp_head', 'themify_ie_standards_compliant');
 			'name' => __('Article Bottom Newsletter', 'themify'),
 			'id' => 'article-bottom-newsletter',
 			'before_widget' => '<div id="article-bottom-nl">',
+			'after_widget' => '</div>',
+			'before_title' => '',
+			'after_title' => '',
+		));
+		register_sidebar(array(
+			'name' => __('Inside the Loop', 'themify'),
+			'id' => 'inside-the-loop',
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget' => '</div>',
 			'before_title' => '',
 			'after_title' => '',
