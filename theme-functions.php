@@ -86,7 +86,7 @@ add_action( 'wp_head', 'themify_ie_enhancements' );
  * @package themify
  */
 function themify_viewport_tag(){
-	echo "\n".'<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no">'."\n";
+	echo "\n".'<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">'."\n";
 
   // echo "\n".'<meta name=”viewport” content=”width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"″'."\n";
 }
@@ -817,7 +817,4 @@ if( ! function_exists('themify_theme_comment') ) {
 		<?php
 	}
 }
-
 ?>
-
-
