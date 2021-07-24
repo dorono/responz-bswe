@@ -24,7 +24,7 @@ global $themify; ?>
 <script src="//platform-api.sharethis.com/js/sharethis.js#property=5adb1bcabc190a0013e2aba9&product=gdpr-compliance-tool"></script>
 
 <?php //For Facebook to create custom audience out of my website visitors ?>
-<!-- Facebook Pixel Code -->
+<!-- Facebook Pixel Code for IM -->
 <script>
   !function(f,b,e,v,n,t,s) {
     if(f.fbq) return; n=f.fbq=function() {
@@ -42,18 +42,35 @@ global $themify; ?>
   fbq('dataProcessingOptions', ['LDU'], 0, 0);
 </script>
 <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=751675342232877&ev=PageView&noscript=1" /></noscript>
-<!-- End Facebook Pixel Code -->
+<!-- End Facebook Pixel Code for IM -->
 
+<!-- Begin Facebook Pixel Code for Doron Orenstein Account -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '964261387707424');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=964261387707424&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code for Doron Orenstein Account -->
 
   <!-- Load Facebook SDK for JavaScript -->
-  <div id="fb-root"></div>
+  <!-- <div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
     js.src = "https://connect.facebook.net/en_US/all.js#xfbml=1";
     fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+  }(document, 'script', 'facebook-jssdk'));</script> -->
 
 	<!-- start Google Analytics Tracking Code -->
 	<script>

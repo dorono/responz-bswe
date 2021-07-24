@@ -246,6 +246,19 @@
 // $ad_name2 = "lfcc-push-your-technique-sheet-music";
 // $slot_name2 = "LFCC FB-Style Featured Ad - Push Your Technique Sheet Music";
 
+// $Img3 = get_bloginfo('url') . "/wp-content/uploads/LFCC-FB-multi-V2.jpg";
+// $Cta3 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+// $MainText3 = "<p>Obviously, there's more to great sax playing than playing a bunch of fast notes. But without being able to get around the horn quickly and smoothly, you can't move your audience with that feeling of musical adrenaline that got you excited about the sax in the first place.</p>
+
+// <p>The problem is that too many of us feel like practicing boring scales and arpeggios is part of the dues we all have to pay, without realizing that practicing technique can be a fun and creative process. </p>
+
+// <p>With his new streaming video course focused 100% on technique, renowned recording artist, Adam Larson takes you way beyond what \"falls easily under the fingers\". Instead, he gets you rooting out anything that might be tripping up your fingers - all while adding new melodic and harmonic sounds to your vocabulary. So if you're ready to tear it up without wanting to tear out your hair, click below and let's get started today!</p>";
+// $ProductName3 = "Lightning-Fast and Crystal-Clean Saxophone Technique";
+// $DisplayUrl3 = "INFINITEMUSICAN.COM";
+// $Url3 = "https://www.infinitemusician.com/p/lightning-fast-and-crystal-clean";
+// $ad_name3 = "lfcc-multi-1";
+// $slot_name3 = "LFCC FB-Style Featured Ad - Multi-1";
+
 //////////////////////////////////////////////////////////////////////////////
 ///////// LIVE ADS ///////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
@@ -282,7 +295,7 @@ $Url2 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-pr
 $ad_name2 = "ugssp-ad-proud-of-sound-closeup";
 $slot_name2 = "UGSSP FB-Style Featured Ad - Proud of Sound";
 
-$Img3 = get_bloginfo('url') . "/wp-content/uploads/LFCC-FB-multi-V2.jpg";
+$Img3 = get_bloginfo('url') . "/wp-content/uploads/lfcc-adam-bw-2-700px-fb.jpg";
 $Cta3 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
 $MainText3 = "<p>Obviously, there's more to great sax playing than playing a bunch of fast notes. But without being able to get around the horn quickly and smoothly, you can't move your audience with that feeling of musical adrenaline that got you excited about the sax in the first place.</p>
 
@@ -293,7 +306,7 @@ $ProductName3 = "Lightning-Fast and Crystal-Clean Saxophone Technique";
 $DisplayUrl3 = "INFINITEMUSICAN.COM";
 $Url3 = "https://www.infinitemusician.com/p/lightning-fast-and-crystal-clean";
 $ad_name3 = "lfcc-multi-1";
-$slot_name3 = "LFCC FB-Style Featured Ad - Multi-1";
+$slot_name3 = "LFCC FB-Style Featured Ad - Adam B & W with Sheet Music";
 
 $Img4 = get_bloginfo('url') . "/wp-content/uploads/bswe-store-700x366-1.jpg";
 $Cta4 = get_bloginfo('url') . "/wp-content/uploads/fb-shop-now-btn.png";
