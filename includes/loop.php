@@ -74,7 +74,7 @@ global $themify; ?>
                         <div><?php echo fb_like_button(); ?></div>
                     </div> -->
                     <div style="margin-bottom: 15px;">
-                        <div class="sharethis-inline-share-buttons"></div>
+                        <!-- ShareThis BEGIN --><div class="sharethis-inline-share-buttons"></div><!-- ShareThis END -->
                     </div>
                 </div>
             <?php } ?>
