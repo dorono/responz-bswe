@@ -2,17 +2,17 @@
 
 // ADS 9 & 10
 
-$Img1 = get_bloginfo('url') . "/wp-content/uploads/BABN_BarSax_300X250.jpg";
-$Alt1 = "Airmen of Note Announcing Immediate Vacancy for Baritone Saxophone";
-$Url1 = "https://www.music.af.mil/Auditions/Upcoming-Vacancies/";
-$ad_name1 = "usaf-airmen-of-note-wide-sidebar";
-$slot_name1 = "Airmen of Note wide sidebar";
+$Img1 = get_bloginfo('url') . "/wp-content/uploads/lfcc-sheet-music.jpg";
+$Alt1 = "Lightning-Fast and Crystal-Clean";
+$Url1 = "https://www.infinitemusician.com/p/lightning-fast-and-crystal-clean";
+$ad_name1 = "lfcc-wide-sidebar";
+$slot_name1 = "Lightning-Fast and Crystal-Clean wide sidebar";
 
-$Img2 = get_bloginfo('url') . "/wp-content/uploads/BABN_BarSax_300X250.jpg";
-$Alt2 = "Airmen of Note Announcing Immediate Vacancy for Baritone Saxophone";
-$Url2 = "https://www.music.af.mil/Auditions/Upcoming-Vacancies/";
-$ad_name2 = "usaf-airmen-of-note-wide-sidebar";
-$slot_name2 = "Airmen of Note wide sidebar";
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/lfcc-sheet-music-video.jpg";
+$Alt2 = "Lightning-Fast and Crystal-Clean";
+$Url2 = "https://www.infinitemusician.com/p/lightning-fast-and-crystal-clean";
+$ad_name2 = "lfcc-video-still-wide-sidebar";
+$slot_name2 = "Lightning-Fast and Crystal-Clean VIDEO STILL wide sidebar";
 
 $num = rand (1,2);
 
