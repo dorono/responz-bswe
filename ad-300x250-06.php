@@ -2,17 +2,17 @@
 
 // ADS 9 & 10
 
-$Img1 = get_bloginfo('url') . "/wp-content/uploads/lfcc-sheet-music.jpg";
-$Alt1 = "Lightning-Fast and Crystal-Clean";
-$Url1 = "https://www.infinitemusician.com/p/lightning-fast-and-crystal-clean";
-$ad_name1 = "lfcc-wide-sidebar";
-$slot_name1 = "Lightning-Fast and Crystal-Clean wide sidebar";
+$Img1 = get_bloginfo('url') . "/wp-content/uploads/muschool-hahn.jpg";
+$Alt1 = "MuSchool";
+$Url1 = "https://www.muschool.app/download";
+$ad_name1 = "muschool-wide-sidebar";
+$slot_name1 = "MuSchool wide sidebar";
 
-$Img2 = get_bloginfo('url') . "/wp-content/uploads/lfcc-sheet-music-video.jpg";
-$Alt2 = "Lightning-Fast and Crystal-Clean";
-$Url2 = "https://www.infinitemusician.com/p/lightning-fast-and-crystal-clean";
-$ad_name2 = "lfcc-video-still-wide-sidebar";
-$slot_name2 = "Lightning-Fast and Crystal-Clean VIDEO STILL wide sidebar";
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/muschool-hahn.jpg";
+$Alt2 = "MuSchool";
+$Url2 = "https://www.muschool.app/download";
+$ad_name2 = "muschool--wide-sidebar";
+$slot_name2 = "MuSchool wide sidebar";
 
 $num = rand (1,2);
 
