@@ -152,20 +152,24 @@ src="https://www.facebook.com/tr?id=964261387707424&ev=PageView&noscript=1"
 			<!-- /.social-widget -->
 
             <div id="main-nav-wrap">
-                <div id="menu-icon" class="mobile-button"></div>
+                <!-- <div id="menu-icon" class="mobile-button"></div> -->
                 <nav>
-                    <?php
-					if ( function_exists( 'themify_custom_menu_nav' ) ) {
-						themify_custom_menu_nav();
-					} else {
-						wp_nav_menu( array(
-							'theme_location' => 'main-nav',
-							'fallback_cb'    => 'themify_default_main_nav',
-							'container'      => '',
-							'menu_id'        => 'main-nav',
-							'menu_class'     => 'main-nav'
-						));
-					}
+                    
+					<?php if (function_exists('wp_nav_menu')) {
+						wp_nav_menu(array('theme_location' => 'main-nav' , 'fallback_cb' => '' , 'container'  => '' , 'menu_id' => 'main-nav' , 'menu_class' => 'main-nav'));
+					} 
+					
+					// if ( function_exists( 'themify_custom_menu_nav' ) ) {
+					// 	themify_custom_menu_nav();
+					// } else {
+					// 	wp_nav_menu( array(
+					// 		'theme_location' => 'main-nav',
+					// 		'fallback_cb'    => 'themify_default_main_nav',
+					// 		'container'      => '',
+					// 		'menu_id'        => 'main-nav',
+					// 		'menu_class'     => 'main-nav'
+					// 	));
+					// }
 					?>
                 </nav>
                 <span class="screen-reader-text"><?php _e( 'Scroll down to content', 'themify' ); ?></span>

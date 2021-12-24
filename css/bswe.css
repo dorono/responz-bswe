@@ -252,7 +252,7 @@ body #headerwrap #main-nav {
 body #headerwrap #main-nav a {
   color: #fff;
   padding-bottom: 0;
-  /* min-height: 20px; */
+  min-height: auto;
 }
 @media screen and (max-width: 480px) {
   /* line 258, ../../sass/_bswe.scss */
