@@ -96,12 +96,15 @@
   BSWE.applySkipClass(BSWE.skipList);
 
   if (!$('body').hasClass('single-format-standard')) {
+    console.log(' SINGLE')
+
     BSWE.distributeAds({
       contentContainer: '#loops-wrapper',
       adDivider: 'article',
-      frequency: 1,
+      frequency: 2,
     });
   } else {
+    console.log('NOT SINGLE')
     BSWE.distributeAds({
       contentContainer: 'article',
       adDivider: 'p:not(.skip)',
@@ -110,17 +113,17 @@
   }
 })(jQuery);
 
-(function($) {
+(function ($) {
 
-  $('.boxunit a').on('click', function() {
-      var label = $(this).data('slot-name');
+  $('.boxunit a').on('click', function () {
+    var label = $(this).data('slot-name');
 
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'Advertisements',
-        eventAction: 'Banner Click',
-        eventLabel: label
-      });
-
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'Advertisements',
+      eventAction: 'Banner Click',
+      eventLabel: label
     });
+
+  });
 })(jQuery);

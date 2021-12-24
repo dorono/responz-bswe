@@ -141,10 +141,12 @@ src="https://www.facebook.com/tr?id=964261387707424&ev=PageView&noscript=1"
 			<?php endif ?>
 
 			<div class="social-widget">
-				<?php dynamic_sidebar('social-widget'); ?>
+				<!-- <?php dynamic_sidebar('social-widget'); ?> -->
 
 				<?php if(!themify_check('setting-exclude_rss')): ?>
-					<div class="rss"><a href="<?php if(themify_get('setting-custom_feed_url') != ""){ echo themify_get('setting-custom_feed_url'); } else { echo bloginfo('rss2_url'); } ?>">RSS</a></div>
+					<?php dynamic_sidebar('social-widget'); ?>
+
+					<!-- <div class="rss"><a href="<?php if(themify_get('setting-custom_feed_url') != ""){ echo themify_get('setting-custom_feed_url'); } else { echo bloginfo('rss2_url'); } ?>">RSS</a></div> -->
 				<?php endif ?>
 			</div>
 			<!-- /.social-widget -->

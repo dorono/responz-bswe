@@ -106,7 +106,7 @@ global $themify; ?>
 					<?php
             while (have_posts()) : the_post();
               $count++;
-              $index = $wp_query->current_post + 1;
+              $index = $wp_query->current_post + 2;
           ?>
 
           <?php if($index == 2): ?>

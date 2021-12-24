@@ -251,7 +251,8 @@ body #headerwrap #main-nav {
 /* line 258, ../../sass/_bswe.scss */
 body #headerwrap #main-nav a {
   color: #fff;
-  min-height: 20px;
+  padding-bottom: 0;
+  /* min-height: 20px; */
 }
 @media screen and (max-width: 480px) {
   /* line 258, ../../sass/_bswe.scss */
@@ -630,13 +631,110 @@ body #sidebar-alt h4.widgettitle {
   line-height: 1em;
   padding: 7px;
 }
+
+@media screen and (max-width: 960px) {
+  #header {
+    height: auto !important;
+  }
+
+#headerwrap #site-logo,
+#headerwrap #site-description {
+  position: static;
+  float: none;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 960px) {
+  #header {
+    height: auto !important;
+  }
+
+  #headerwrap #site-description {
+    position: static;
+    float: none;
+    clear: both;
+    margin-bottom: 10px;
+  }
+
+  .header-widget .widget {
+    margin-bottom: 10px;
+  }
+
+  #headerwrap #main-nav {
+    position: static;
+  }
+}
+
+#site-logo {
+  position: static;
+  float: none;
+  clear: both;
+}
+
+.header-widget {
+  position: static !important;
+  float: none !important;
+  text-align: left;
+  clear: both;
+  margin: 0;
+}
+
 @media screen and (max-width: 760px) {
   /* line 649, ../../sass/_bswe.scss */
   body #sidebar .sidebar_newsletter,
   body #sidebar-alt .sidebar_newsletter {
     display: none;
   }
+
+  /* #header .social-widget {
+    position: inherit;  
+  } */
 }
+
+@media screen and (max-width: 959px) {
+  header .header-widget {
+    position: static !important;
+    float: none !important;
+    text-align: left;
+    clear: both;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  #site-logo {
+    position: absolute;
+    margin: 0;
+  }
+
+  .header-widget {
+    position: absolute !important;
+    float: none !important; 
+    text-align: left;
+    clear: both;
+    margin: 0;
+  }
+}
+
+#header .social-widget {
+  position: static;  
+  float: none;
+}
+
+@media screen and (min-width: 480px) {
+  #header .social-widget {
+    position: static !important;  
+  }
+}
+
+/* @media screen and (max-width: 979px) {
+  #header .social-widget {
+    position: static;  
+    float: none;
+  }
+} */
+
 /* line 656, ../../sass/_bswe.scss */
 body .sidebar-boxunit {
   clear: both;
@@ -806,6 +904,10 @@ body .post-date {
 /* line 911, ../../sass/_bswe.scss */
 body .footer-nav a {
   font-weight: 500;
+}
+
+body .sidebar-boxunit {
+  text-align: left;
 }
 
 /* line 915, ../../sass/_bswe.scss */
