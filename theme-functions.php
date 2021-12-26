@@ -604,6 +604,7 @@ add_action('wp_head', 'themify_ie_standards_compliant');
 			register_nav_menus( array(
 				'top-nav' => __( 'Top Navigation', 'themify' ),
 				'main-nav' => __( 'Main Navigation', 'themify' ),
+				'categories-nav' => __( 'Category Navigation', 'themify' ),
 				'footer-nav' => __( 'Footer Navigation', 'themify' ),
 			) );
 		}

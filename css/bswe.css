@@ -483,7 +483,7 @@ body #nav-bar {
 @media screen and (max-width: 600px) {
   /* line 479, ../../sass/_bswe.scss */
   body #nav-bar ul {
-    display: none;
+    /* display: none; */
   }
 }
 /* line 485, ../../sass/_bswe.scss */
@@ -578,6 +578,44 @@ body .post .post-content h4 {
 body .post .post-content h5 {
   font-size: 1.1em;
 }
+
+#headerwrap #categories-nav {
+  /* font-family: Cabin, Arial, sans-serif; */
+  height: auto;
+  padding: 10px 0 0;
+  float: none;
+  clear: both;    
+  margin: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  font: 115% Cabin, Arial, sans-serif;
+}
+
+#headerwrap #categories-nav li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+
+#headerwrap #categories-nav li a {
+  color: #fff;
+  padding-bottom: 0;
+  min-height: auto;
+  padding: 0 10px 8px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-right: solid 1px #ccc;
+ }
+
+ #headerwrap #categories-nav > li:last-child a {
+  border-right: none;
+ } 
+
 @media screen and (max-width: 480px) {
   /* line 560, ../../sass/_bswe.scss */
   body .post .post-content {

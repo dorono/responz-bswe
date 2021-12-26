@@ -151,11 +151,23 @@ src="https://www.facebook.com/tr?id=964261387707424&ev=PageView&noscript=1"
 			</div>
 			<!-- /.social-widget -->
 
-            <div id="main-nav-wrap">
-                <!-- <div id="menu-icon" class="mobile-button"></div> -->
+			<div>
+			<nav>
+				<?php
+					if (function_exists('wp_nav_menu')) {
+						wp_nav_menu(array('theme_location' => 'categories-nav' , 'fallback_cb' => '' , 'container'  => '' , 'menu_id' => 'categories-nav' , 'menu_class' => 'categories-nav'));
+					} 
+					?>	
+					</nav>
+			</div>
+
+            <!--<div id="main-nav-wrap">
+                 <div id="menu-icon" class="mobile-button"></div> 
                 <nav>
                     
-					<?php if (function_exists('wp_nav_menu')) {
+					<?php
+
+			if (function_exists('wp_nav_menu')) {
 						wp_nav_menu(array('theme_location' => 'main-nav' , 'fallback_cb' => '' , 'container'  => '' , 'menu_id' => 'main-nav' , 'menu_class' => 'main-nav'));
 					} 
 					
@@ -172,7 +184,7 @@ src="https://www.facebook.com/tr?id=964261387707424&ev=PageView&noscript=1"
 					// }
 					?>
                 </nav>
-                <span class="screen-reader-text"><?php _e( 'Scroll down to content', 'themify' ); ?></span>
+                <span class="screen-reader-text"><?php _e( 'Scroll down to content', 'themify' ); ?></span>-->
 		<!-- /#main-nav -->
 	</div>
             <!-- /#main-nav-wrap -->
