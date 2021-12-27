@@ -801,6 +801,16 @@ body .sidebar-boxunit img.desktop-tablet-boxunit-img, body .sidebar-boxunit img.
   body .sidebar-boxunit img.desktop-tablet-boxunit-img {
     display: inline-block;
   }
+
+  #header .social-widget {
+    position: absolute;
+    float: right;
+    margin-top: -1px;
+    position: absolute;
+    bottom: 12px;
+    right: 0;
+    z-index: 1001; 
+  }
 }
 @media screen and (max-width: 760px) {
   /* line 672, ../../sass/_bswe.scss */
@@ -970,4 +980,12 @@ h4,
 h5,
 h6 {
   font-family: 'Crete Round';
+}
+
+.rmp-menu-wrap li a {
+  text-transform: uppercase;
+}
+
+.jquery-responsive-select-menu .first-option {
+  pointer-events: none;
 }
