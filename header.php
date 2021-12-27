@@ -151,7 +151,7 @@ src="https://www.facebook.com/tr?id=964261387707424&ev=PageView&noscript=1"
 			</div>
 			<!-- /.social-widget -->
 
-			<div>
+			<div id="category-nav-menu">
 			<nav>
 				<?php
 					if (function_exists('wp_nav_menu')) {

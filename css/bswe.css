@@ -274,6 +274,7 @@ body #headerwrap #main-nav .current_page_item a {
 body #headerwrap #top-nav {
   float: right;
   padding: 0;
+  display: none;
 }
 /* line 283, ../../sass/_bswe.scss */
 body #headerwrap #top-nav li:last-child {
@@ -403,6 +404,10 @@ body article .sidebar-boxunit {
   body #loops-wrapper .sidebar-boxunit:not(.featured-box),
   body article .sidebar-boxunit:not(.featured-box) {
     display: none;
+  }
+
+  body #headerwrap #top-nav {
+    display: block;
   }
 }
 /* line 404, ../../sass/_bswe.scss */
@@ -670,6 +675,10 @@ body #sidebar-alt h4.widgettitle {
   padding: 7px;
 }
 
+#category-nav-menu {
+  overflow: hidden;
+}
+
 @media screen and (max-width: 960px) {
   #header {
     height: auto !important;
@@ -700,6 +709,10 @@ body #sidebar-alt h4.widgettitle {
   }
 
   #headerwrap #main-nav {
+    position: static;
+  }
+
+  #headerwrap #categories-nav {
     position: static;
   }
 }
