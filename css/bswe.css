@@ -766,6 +766,10 @@ body #sidebar-alt h4.widgettitle {
     clear: both;
     margin: 0;
   }
+
+  #header .ad .sidebar-boxunit.boxunit {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 960px) {
@@ -782,17 +786,17 @@ body #sidebar-alt h4.widgettitle {
     margin: 0;
   }
 
-  #category-nav-menu nav ul {
+  /* #category-nav-menu nav ul {
     display: block;
   }
 
   #category-nav-menu nav div {
     display: none;
-  }    
+  }*/    
 
   body #headerwrap #header {
     height: 180px;
-  }
+  } 
 }
 
 #header .social-widget {
