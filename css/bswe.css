@@ -160,7 +160,7 @@ body #headerwrap {
 body #headerwrap #header {
   background-image: url("/wp-content/themes/responz-bswe/images/bswe-sax.png");
   background-repeat: no-repeat;
-  height: 172px;
+  height: 250px;
 }
 @media screen and (min-width: 520px) {
   /* line 162, ../../sass/_bswe.scss */
@@ -180,7 +180,7 @@ body #headerwrap #header a#advertise-link {
   /* line 183, ../../sass/_bswe.scss */
   body #headerwrap #header #searchform-wrap {
     position: relative;
-  }
+  } 
 }
 /* line 189, ../../sass/_bswe.scss */
 body #headerwrap #header #site-logo,
@@ -679,9 +679,23 @@ body #sidebar-alt h4.widgettitle {
   overflow: hidden;
 }
 
+#category-nav-menu nav ul {
+  display: none;
+}
+
+#category-nav-menu nav div {
+  display: block;
+  padding-bottom: 10px;
+  font-family: Cabin, Arial, sans-serif;
+}
+
+#category-nav-menu nav div select {
+  padding: 5px;
+}
+
 @media screen and (max-width: 960px) {
   #header {
-    height: auto !important;
+    /* height: auto !important; */
   }
 } 
 
@@ -695,7 +709,7 @@ body #sidebar-alt h4.widgettitle {
 
 @media screen and (max-width: 960px) {
   #header {
-    height: auto !important;
+    /* height: auto !important; */
   }
 
   #headerwrap #site-description {
@@ -767,6 +781,18 @@ body #sidebar-alt h4.widgettitle {
     clear: both;
     margin: 0;
   }
+
+  #category-nav-menu nav ul {
+    display: block;
+  }
+
+  #category-nav-menu nav div {
+    display: none;
+  }    
+
+  body #headerwrap #header {
+    height: 180px;
+  }
 }
 
 #header .social-widget {
@@ -777,7 +803,7 @@ body #sidebar-alt h4.widgettitle {
 @media screen and (min-width: 480px) {
   #header .social-widget {
     position: static !important;  
-  }
+  } 
 }
 
 /* @media screen and (max-width: 979px) {
@@ -817,6 +843,10 @@ body .sidebar-boxunit img.desktop-tablet-boxunit-img, body .sidebar-boxunit img.
   body .sidebar-boxunit img.mobile-boxunit-img {
     display: inline-block;
   }
+
+  .smw_right a:first-of-type img {
+    margin-left: 10px !important;
+  }  
 }
 /* line 680, ../../sass/_bswe.scss */
 body .social_icons {
@@ -982,10 +1012,6 @@ h6 {
   font-family: 'Crete Round';
 }
 
-.rmp-menu-wrap li a {
-  text-transform: uppercase;
-}
-
-.jquery-responsive-select-menu .first-option {
-  pointer-events: none;
+.widget.widget_block.widget_search {
+  margin-right: 10px;
 }

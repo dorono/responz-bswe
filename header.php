@@ -160,9 +160,11 @@ src="https://www.facebook.com/tr?id=964261387707424&ev=PageView&noscript=1"
 						wp_nav_menu(array('theme_location' => 'categories-nav' , 'fallback_cb' => '' , 'container'  => '' , 'menu_id' => 'categories-nav' , 'menu_class' => 'categories-nav'));
 					} 
 					?>	
+
+<?php dynamic_sidebar('header-categories-nav'); ?>
 					</nav>
 			</div>
-			<?php dynamic_sidebar('header-categories-nav'); ?>
+			
             <!--<div id="main-nav-wrap">
                  <div id="menu-icon" class="mobile-button"></div> 
                 <nav>
