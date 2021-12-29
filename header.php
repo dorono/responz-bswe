@@ -154,22 +154,24 @@ src="https://www.facebook.com/tr?id=964261387707424&ev=PageView&noscript=1"
 			<div id="category-nav-menu">
 			<nav>
 				<?php
+					// wp_nav_menu( array( 'theme_location' => 'categories-nav' ) ); 
+					
 					if (function_exists('wp_nav_menu')) {
 						wp_nav_menu(array('theme_location' => 'categories-nav' , 'fallback_cb' => '' , 'container'  => '' , 'menu_id' => 'categories-nav' , 'menu_class' => 'categories-nav'));
 					} 
 					?>	
 					</nav>
 			</div>
-
+			<?php dynamic_sidebar('header-categories-nav'); ?>
             <!--<div id="main-nav-wrap">
                  <div id="menu-icon" class="mobile-button"></div> 
                 <nav>
-                    
+				
 					<?php
 
-			if (function_exists('wp_nav_menu')) {
-						wp_nav_menu(array('theme_location' => 'main-nav' , 'fallback_cb' => '' , 'container'  => '' , 'menu_id' => 'main-nav' , 'menu_class' => 'main-nav'));
-					} 
+			// if (function_exists('wp_nav_menu')) {
+			// 			wp_nav_menu(array('theme_location' => 'main-nav' , 'fallback_cb' => '' , 'container'  => '' , 'menu_id' => 'main-nav' , 'menu_class' => 'main-nav'));
+			// 		} 
 					
 					// if ( function_exists( 'themify_custom_menu_nav' ) ) {
 					// 	themify_custom_menu_nav();
@@ -182,7 +184,7 @@ src="https://www.facebook.com/tr?id=964261387707424&ev=PageView&noscript=1"
 					// 		'menu_class'     => 'main-nav'
 					// 	));
 					// }
-					?>
+					 ?>
                 </nav>
                 <span class="screen-reader-text"><?php _e( 'Scroll down to content', 'themify' ); ?></span>-->
 		<!-- /#main-nav -->

@@ -70,7 +70,7 @@
         ) {
           adIdentifier = shuffledAdArray[adNum].adSlot;
           adParent = shuffledAdArray[adNum].adContainer;
-
+          console.log('adIdentifier', adIdentifier)
           currentAd =
             '.sidebar-boxunit[data-boxunit-slot=' + adIdentifier + ']';
           sourceAd = $('#' + adParent).find(currentAd);
@@ -96,7 +96,7 @@
   BSWE.applySkipClass(BSWE.skipList);
 
   if (!$('body').hasClass('single-format-standard')) {
-    console.log(' SINGLE')
+    console.log('POST LIST');
 
     BSWE.distributeAds({
       contentContainer: '#loops-wrapper',
@@ -104,7 +104,7 @@
       frequency: 2,
     });
   } else {
-    console.log('NOT SINGLE')
+    console.log('SINGLE POST');
     BSWE.distributeAds({
       contentContainer: 'article',
       adDivider: 'p:not(.skip)',

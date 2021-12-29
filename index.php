@@ -109,7 +109,7 @@ global $themify; ?>
               $index = $wp_query->current_post + 2;
           ?>
 
-          <?php if($index == 2): ?>
+		<?php if($index == 4): ?>
             <?php dynamic_sidebar('inside-the-loop'); ?>
           <?php endif; ?>
 						<?php if(is_search()): ?>

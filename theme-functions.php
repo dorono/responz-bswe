@@ -647,6 +647,14 @@ add_action('wp_head', 'themify_ie_standards_compliant');
 			'after_title' => '',
 		));
 		register_sidebar(array(
+			'name' => __('Header Categories Nav', 'themify'),
+			'id' => 'header-categories-nav',
+			'before_widget' => '<div id="%1$s">',
+			'after_widget' => '</div>',
+			'before_title' => '',
+			'after_title' => '',
+		));		
+		register_sidebar(array(
 			'name' => __('Homepage Newsletter Signup', 'themify'),
 			'id' => 'homepage-newsletter',
 			'before_widget' => '<div id="%1$s">',
