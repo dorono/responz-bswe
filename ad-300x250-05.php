@@ -14,19 +14,7 @@ $Url2 = "https://rousseaumouthpieces.com";
 $ad_name2 = "RousseauAd_BestSax_Jan21_300x250";
 $slot_name2 = "Jody Jazz Slot 2 - 300x250";
 
-$Img3 = get_bloginfo('url') . "/wp-content/uploads/Rovner_bestsaxad_022421.jpg";
-$Alt3 = "Rovner";
-$Url3 = "https://www.rovnerproducts.com/avatar-mouthpiece";
-$ad_name3 = "RovnerAd_avatar";
-$slot_name3 = "Rovner 300x250";
-
-$Img4 = get_bloginfo('url') . "/wp-content/uploads/Rovner_bestsaxad_022421.jpg";
-$Alt4 = "Rovner";
-$Url4 = "https://www.rovnerproducts.com/avatar-mouthpiece";
-$ad_name4 = "RovnerAd_avatar";
-$slot_name4 = "Rovner 300x250";
-
-$num = mt_rand (1,4);
+$num = mt_rand (1,2);
 
 $Image = ${'Img'.$num};
 $Alt = ${'Alt' .$num};

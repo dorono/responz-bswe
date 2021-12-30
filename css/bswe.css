@@ -637,9 +637,9 @@ body #sidebar-alt {
   text-align: center;
 }
 /* line 607, ../../sass/_bswe.scss */
-body #sidebar .widgetwrap:first-of-type .widget {
+/* body #sidebar .widgetwrap:first-of-type .widget {
   margin: 0;
-}
+} */
 /* line 616, ../../sass/_bswe.scss */
 body #sidebar .widget_recent_comments,
 body #sidebar-alt .widget_recent_comments {

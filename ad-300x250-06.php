@@ -14,7 +14,19 @@ $Url2 = "https://www.muschool.app/download";
 $ad_name2 = "muschool--wide-sidebar";
 $slot_name2 = "MuSchool wide sidebar";
 
-$num = rand (1,2);
+$Img3 = get_bloginfo('url') . "/wp-content/uploads/Rovner_bestsaxad_022421.jpg";
+$Alt3 = "Rovner";
+$Url3 = "https://www.rovnerproducts.com/avatar-mouthpiece";
+$ad_name3 = "RovnerAd_avatar";
+$slot_name3 = "Rovner 300x250";
+
+$Img4 = get_bloginfo('url') . "/wp-content/uploads/Rovner_bestsaxad_022421.jpg";
+$Alt4 = "Rovner";
+$Url4 = "https://www.rovnerproducts.com/avatar-mouthpiece";
+$ad_name4 = "RovnerAd_avatar";
+$slot_name4 = "Rovner 300x250";
+
+$num = rand (1,4);
 
 $Image = ${'Img'.$num};
 $Alt = ${'Alt' .$num};
