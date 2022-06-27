@@ -1,19 +1,37 @@
 <div class="banner-wide-box boxunit">
   <?php
 
-  $Img1 = "https://www.bestsaxophonewebsiteever.com/wp-content/uploads/robertos-consistent-728x90-v2.jpg";
-  $Alt1 = "Roberto's Winds";
-  $Url1 = "https://www.robertoswinds.com/";
-  $class1 = "robertos_winds_wide_rect";
-  $gaEventLabel1 = "Robertos Winds - Consistent Character and Power";
+  $Img1 = "https://www.bestsaxophonewebsiteever.com/wp-content/uploads/robertos-for-otto-link-1.jpg";
+  $Alt1 = "Robertos Winds Uovo - For Otto Link and Metal Mouthpieces";
+  $Url1 = "https://www.robertoswinds.com/pages/uovo";
+  $class1 = "robertos_winds_uovo_for_otto_link-1";
+  $gaEventLabel1 = "Robertos Winds Uovo - For Otto Link 1";
 
-  $Img2 = "https://www.bestsaxophonewebsiteever.com/wp-content/uploads/robertos-tim-price-728x90-v2.jpg";
-  $Alt2 = "Roberto's Winds";
-  $Url2 = "https://www.robertoswinds.com/";
-  $class2 = "robertos_winds_wide_rect";
-  $gaEventLabel2 = "Robertos Winds - Tim Price";
+  $Img2 = "https://www.bestsaxophonewebsiteever.com/wp-content/uploads/robertos-for-otto-link-2.jpg";
+  $Alt2 = "Robertos Winds Uovo - For Otto Link and Metal Mouthpieces";
+  $Url2 = "https://www.robertoswinds.com/pages/uovo";
+  $class2 = "robertos_winds_uovo_for_otto_link-2";
+  $gaEventLabel2 = "Robertos Winds Uovo - For Otto Link 2";
 
-  $num = mt_rand (1,2);
+  $Img3 = "https://www.bestsaxophonewebsiteever.com/wp-content/uploads/robertos-it-sings-1.jpg";
+  $Alt3 = "Robertos Winds Uovo - For Otto Link and Metal Mouthpieces";
+  $Url3 = "https://www.robertoswinds.com/pages/uovo";
+  $class3 = "robertos_uovo_it_sings_1";
+  $gaEventLabel3 = "Robertos Winds - It Sings 1";
+
+  $Img4 = "https://www.bestsaxophonewebsiteever.com/wp-content/uploads/robertos-it-sings-2.jpg";
+  $Alt4 = "Robertos Winds Uovo - For Otto Link and Metal Mouthpieces";
+  $Url4 = "https://www.robertoswinds.com/pages/uovo";
+  $class4 = "robertos_uovo_it_sings_2";
+  $gaEventLabel4 = "Robertos Winds - It Sings 2";
+
+  $Img5 = "https://www.bestsaxophonewebsiteever.com/wp-content/uploads/robertos-it-sings-3.jpg";
+  $Alt5 = "Robertos Winds Uovo - For Otto Link and Metal Mouthpieces";
+  $Url5 = "https://www.robertoswinds.com/pages/uovo";
+  $class5 = "robertos_uovo_it_sings_3";
+  $gaEventLabel5 = "Robertos Winds - It Sings 3";
+
+  $num = mt_rand (1,5);
 
   $Image = ${'Img'.$num};
   $Alt = ${'Alt' .$num};

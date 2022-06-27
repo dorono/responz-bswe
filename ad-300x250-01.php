@@ -275,6 +275,17 @@
 // $ad_name4 = "bswe-store-multi-product-v1";
 // $slot_name4 = "FB-Style BSWE Store Multi Image V1";
 
+// $Img4 = get_bloginfo('url') . "/wp-content/uploads/bswe-store-700x366-1.jpg";
+// $Cta4 = get_bloginfo('url') . "/wp-content/uploads/fb-shop-now-btn.png";
+// $MainText4 = "<p>Looking to delight a sax-playing family member or friend this holiday season?</p>
+// <p>Then look no further than our high-quality, reasonably-priced collection of <strong>conversation-starting</strong> t-shirts, practice journals, phone cases, throw-pillows, and other practical items (including shower curtains!).</p>
+// <p>Most importantly, we promise to never sell anything with word play on the word, \"sax\" such as \"sax appeal\", \"saxy\", etc.</p>";
+// $ProductName4 = "Find the Perfect Gift for the Saxophonist in Your Life";
+// $DisplayUrl4 = "BESTSAXPHONEWEBSITEEVER.COM/STORE";
+// $Url4 = "https://www.bestsaxophonewebsiteever.com/store/";
+// $ad_name4 = "bswe-store-multi-product-v1";
+// $slot_name4 = "FB-Style BSWE Store Multi Image V1";
+
 //////////////////////////////////////////////////////////////////////////////
 ///////// LIVE ADS ///////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
@@ -313,18 +324,7 @@ $Url3 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-pr
 $ad_name3 = "ugssp-ad-flashy-technique-closeup";
 $slot_name3 = "UGSSP FB-Style Featured Ad - Clouseup Flashy Technique";
 
-$Img4 = get_bloginfo('url') . "/wp-content/uploads/bswe-store-700x366-1.jpg";
-$Cta4 = get_bloginfo('url') . "/wp-content/uploads/fb-shop-now-btn.png";
-$MainText4 = "<p>Looking to delight a sax-playing family member or friend this holiday season?</p>
-<p>Then look no further than our high-quality, reasonably-priced collection of <strong>conversation-starting</strong> t-shirts, practice journals, phone cases, throw-pillows, and other practical items (including shower curtains!).</p>
-<p>Most importantly, we promise to never sell anything with word play on the word, \"sax\" such as \"sax appeal\", \"saxy\", etc.</p>";
-$ProductName4 = "Find the Perfect Gift for the Saxophonist in Your Life";
-$DisplayUrl4 = "BESTSAXPHONEWEBSITEEVER.COM/STORE";
-$Url4 = "https://www.bestsaxophonewebsiteever.com/store/";
-$ad_name4 = "bswe-store-multi-product-v1";
-$slot_name4 = "FB-Style BSWE Store Multi Image V1";
-
-$num = rand (1,4);
+$num = rand (1,3);
 
 $Image = ${'Img'.$num};
 $Cta = ${'Cta'.$num};

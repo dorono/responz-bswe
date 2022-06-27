@@ -71,7 +71,7 @@ global $themify; ?>
             <?php if (!is_front_page() && !is_archive() && !is_search()) { ?>
                 <div class="social_icons">
                      <div style="overflow: hidden;">
-                     <!-- <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="450" data-layout="standard" data-action="like" data-size="small" data-share="false"></div> -->
+                     <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="450" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
 					 <!-- <div><?php //echo fb_like_button(); ?></div>-->
                     </div> 
                     <div style="margin-bottom: 15px;">

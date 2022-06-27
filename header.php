@@ -94,6 +94,8 @@ src="https://www.facebook.com/tr?id=964261387707424&ev=PageView&noscript=1"
 </head>
 
 <body <?php body_class(); ?>>
+<!-- <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=341791107485378&autoLogAppEvents=1" nonce="ZqcW5OIO"></script> -->
 
 <?php themify_body_start(); //hook ?>
 <div id="pagewrap" class="hfeed site">
