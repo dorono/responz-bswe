@@ -286,6 +286,17 @@
 // $ad_name4 = "bswe-store-multi-product-v1";
 // $slot_name4 = "FB-Style BSWE Store Multi Image V1";
 
+// $Img2 = get_bloginfo('url') . "/wp-content/uploads/LFCC-FB-multi-V2.jpg";
+// $Cta2 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+// $MainText2 = "<p>Obviously, there's more to great sax playing than playing a bunch of fast notes. But without being able to get around the horn quickly and smoothly, you can't move your audience with that feeling of musical adrenaline that got you excited about the sax in the first place.</p>
+// <p>The problem is that too many of us feel like practicing boring scales and arpeggios is part of the dues we all have to pay, without realizing that practicing technique can be a fun and creative process. </p>
+// <p>With his new streaming video course focused 100% on technique, renowned recording artist, Adam Larson takes you way beyond what \"falls easily under the fingers\". Instead, he gets you rooting out anything that might be tripping up your fingers - all while adding new melodic and harmonic sounds to your vocabulary. So if you're ready to tear it up without wanting to tear out your hair, click below and let's get started today!</p>";
+// $ProductName2 = "Lightning-Fast and Crystal-Clean Saxophone Technique";
+// $DisplayUrl2 = "INFINITEMUSICAN.COM";
+// $Url2 = "https://www.infinitemusician.com/p/lightning-fast-and-crystal-clean";
+// $ad_name2 = "lfcc-multi-1";
+// $slot_name2 = "LFCC FB-Style Featured Ad - Multi-1";
+
 //////////////////////////////////////////////////////////////////////////////
 ///////// LIVE ADS ///////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////
@@ -302,29 +313,51 @@ $Url1 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-pr
 $ad_name1 = "ugssp-ad-v1-course-title-multi";
 $slot_name1 = "UGSSP FB-Style Featured Ad - The Ultimate Guide to Saxophone Sound Production - Multi";
 
-$Img2 = get_bloginfo('url') . "/wp-content/uploads/LFCC-FB-multi-V2.jpg";
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/LFCC-FB-multi-ENHANCED.jpg";
 $Cta2 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
-$MainText2 = "<p>Obviously, there's more to great sax playing than playing a bunch of fast notes. But without being able to get around the horn quickly and smoothly, you can't move your audience with that feeling of musical adrenaline that got you excited about the sax in the first place.</p>
+$MainText2 = "<p>You know that adrenaline you get from hearing a saxophonist tearing through super-hip lines with incredible clarity and a rock-solid time feel? Now, obviously, there's a lot more that goes into great sax playing than just playing a bunch of fast notes, but without solid technical skills, your playing is going to lack a critical dimension when it comes to exciting your listeners.</p>
+
+<p>Luckily, there is, indeed, a clear path to developing those head-turning chops while at the same time adding original modern vocabulary to your improv \"vocabulary\", and renowned sax recording artist and educator Adam Larson's course, 𝘓𝘪𝘨𝘩𝘵𝘯𝘪𝘯𝘨-𝘍𝘢𝘴𝘵 𝘢𝘯𝘥 𝘊𝘳𝘺𝘴𝘵𝘢𝘭-𝘊𝘭𝘦𝘢𝘯 is a \"one-stop shopping\" destination to get you there. Instead of blindly running scales or reading out of an exercise book, Adam takes you through a method similar to that of Brecker and other masters, where it's all about increasing the speed of not only your fingers, but your mind, and most importantly, your ears.</p>
+
+<p>So if you're willing to do something you've never done so you can have something you've never had - click below to learn more about Adam's popular, game-changing course and start turbo-charging your playint - today.</p>";
+$ProductName2 = "Lightning-Fast and Crystal-Clean Saxophone Technique";
+$DisplayUrl2 = "SAXTECHNIQUE.COM";
+$Url2 = "https://www.infinitemusician.com/p/lightning-fast-and-crystal-clean";
+$ad_name2 = "lfcc-multi-1-enhanced-2022";
+$slot_name2 = "LFCC FB-Style Featured Ad - Multi-1 - Enhanced-2022";
+
+$Img3 = get_bloginfo('url') . "/wp-content/uploads/lfcc-FB-ad-adam-x2-7ths-ENHANCED.jpg";
+$Cta3 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+$MainText3 = "<p>Obviously, there's more to great sax playing than playing a bunch of fast notes. But without being able to get around the horn quickly and smoothly, you can't move your audience with that feeling of musical adrenaline that got you excited about the sax in the first place.</p>
 <p>The problem is that too many of us feel like practicing boring scales and arpeggios is part of the dues we all have to pay, without realizing that practicing technique can be a fun and creative process. </p>
 <p>With his new streaming video course focused 100% on technique, renowned recording artist, Adam Larson takes you way beyond what \"falls easily under the fingers\". Instead, he gets you rooting out anything that might be tripping up your fingers - all while adding new melodic and harmonic sounds to your vocabulary. So if you're ready to tear it up without wanting to tear out your hair, click below and let's get started today!</p>";
-$ProductName2 = "Lightning-Fast and Crystal-Clean Saxophone Technique";
-$DisplayUrl2 = "INFINITEMUSICAN.COM";
-$Url2 = "https://www.infinitemusician.com/p/lightning-fast-and-crystal-clean";
-$ad_name2 = "lfcc-multi-1";
-$slot_name2 = "LFCC FB-Style Featured Ad - Multi-1";
+$ProductName3 = "Lightning-Fast and Crystal-Clean Saxophone Technique";
+$DisplayUrl3 = "INFINITEMUSICAN.COM";
+$Url3 = "https://www.infinitemusician.com/p/lightning-fast-and-crystal-clean";
+$ad_name3 = "lfcc-multi-1-enhanced-2022";
+$slot_name3 = "LFCC FB-Style Featured Ad - 7ths - Enhanced-2022";
 
-$Img3 = get_bloginfo('url') . "/wp-content/uploads/liebman-embouchure-closeup.jpg";
-$Cta3 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
-$MainText3 = "<p>Flashy technique and altissimo are all fine and good, but a rich, powerful, and distinctive saxophone sound that truly grabs your listeners is the hallmark of any great player. Thing is, without the correct methods, you're likely to waste time, looking for the perfect setup and trying to make sense of vague and conflicting instruction from books, videos, and private teachers.</p>
+$Img4 = get_bloginfo('url') . "/wp-content/uploads/fb-stacked-4ths-screencap-ENHANCED.jpg";
+$Cta4 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+$MainText4 = "<p>Recording artist and master class clinician, Adam Larson shares his proven system for building technique in a way that not only uncovers and removes your technical \"blind spots\", but also opens you up to a whole new world of jazz improv vocabulary. Even if you don't have a ton of time to practice each week, if you're ready to move out of your comfort zone in a fun and inspiring way, then click the picture below and check the program out for yourself!</p>";
+$ProductName4 = "Lightning-Fast and Crystal-Clean Saxophone Technique";
+$DisplayUrl4 = "INFINITEMUSICIAN.COM";
+$Url4 = "https://www.infinitemusician.com/p/lightning-fast-and-crystal-clean";
+$ad_name4 = "fb-stacked-4ths-screencap-ENHANCED";
+$slot_name4 = "LFCC FB-Style Featured Ad - stacked 4ths - Enhanced-2022";
+
+$Img5 = get_bloginfo('url') . "/wp-content/uploads/liebman-embouchure-closeup.jpg";
+$Cta5 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+$MainText5 = "<p>Flashy technique and altissimo are all fine and good, but a rich, powerful, and distinctive saxophone sound that truly grabs your listeners is the hallmark of any great player. Thing is, without the correct methods, you're likely to waste time, looking for the perfect setup and trying to make sense of vague and conflicting instruction from books, videos, and private teachers.</p>
 <p>Luckily, sax legend David Liebman, one of the world's foremost experts on saxophone sound production, takes you on a step-by-step journey through the method used by legends such as Michael Brecker, Bob Berg, and other masters. Starting from your mental concept of sound, to the breath, to the throat and the oral cavity (lots of cool overtone exercises here!), to the embouchure, and then on to expressive effects and working on reeds - Dave covers <em>everything</em> you need to develop the sort of sound that turns heads - <strong><em>from the first note</em></strong>.</p>";
-$DisplayUrl3 = "SAXOPHONETONE.COM";
-$Alt3 = "The Ultimate Guide to Saxophone Sound Production";
-$ProductName3 = "Ready to go <em>Deep</em> Into the Art of Building a Massive Saxophone Sound?";
-$Url3 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-production";
-$ad_name3 = "ugssp-ad-flashy-technique-closeup";
-$slot_name3 = "UGSSP FB-Style Featured Ad - Clouseup Flashy Technique";
+$DisplayUrl5 = "SAXOPHONETONE.COM";
+$Alt5 = "The Ultimate Guide to Saxophone Sound Production";
+$ProductName5 = "Ready to go <em>Deep</em> Into the Art of Building a Massive Saxophone Sound?";
+$Url5 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-production";
+$ad_name5 = "ugssp-ad-flashy-technique-closeup";
+$slot_name5 = "UGSSP FB-Style Featured Ad - Clouseup Flashy Technique";
 
-$num = rand (1,3);
+$num = rand (1,5);
 
 $Image = ${'Img'.$num};
 $Cta = ${'Cta'.$num};

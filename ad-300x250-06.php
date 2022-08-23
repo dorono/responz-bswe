@@ -8,37 +8,43 @@ $Url1 = "https://woodandwinds.com/en-us/products/the-wall-hanger-saxophone-wall-
 $ad_name1 = "wood-and-winds-wall-stand";
 $slot_name1 = "Wood and Winds Wall Stand";
 
-$Img2 = get_bloginfo('url') . "/wp-content/uploads/thumbrest.jpg";
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/wall-stand.jpg";
 $Alt2 = "Wood and Winds";
-$Url2 = "https://woodandwinds.com/en-us/products/wooden-thumbrest-for-saxophone";
-$ad_name2 = "wood-and-winds-thumbrest";
-$slot_name2 = "Wood and Winds Thumbrest";
+$Url2 = "https://woodandwinds.com/en-us/products/the-wall-hanger-saxophone-wall-stand-gift-for-saxophonist-player-tenor-alto-soprano-sax";
+$ad_name2 = "wood-and-winds-wall-stand";
+$slot_name2 = "Wood and Winds Wall Stand";
 
-$Img3 = get_bloginfo('url') . "/wp-content/uploads/stand.jpg";
-$Alt3 = "Wood and Winds";
-$Url3 = "https://woodandwinds.com/en-us/products/solid-wood-sax-stand-available-immediately";
-$ad_name3 = "wood-and-winds-stand";
-$slot_name3 = "Wood and Winds Stand";
+// $Img2 = get_bloginfo('url') . "/wp-content/uploads/thumbrest.jpg";
+// $Alt2 = "Wood and Winds";
+// $Url2 = "https://woodandwinds.com/en-us/products/wooden-thumbrest-for-saxophone";
+// $ad_name2 = "wood-and-winds-thumbrest";
+// $slot_name2 = "Wood and Winds Thumbrest";
 
-$Img4 = get_bloginfo('url') . "/wp-content/uploads/pearls.jpg";
-$Alt4 = "Wood and Winds";
-$Url4 = "https://woodandwinds.com/en-us/products/wooden-finger-buttons-for-saxophone";
-$ad_name4 = "wood-and-winds-pearls";
-$slot_name4 = "Wood and Winds Pearls";
+// $Img3 = get_bloginfo('url') . "/wp-content/uploads/stand.jpg";
+// $Alt3 = "Wood and Winds";
+// $Url3 = "https://woodandwinds.com/en-us/products/solid-wood-sax-stand-available-immediately";
+// $ad_name3 = "wood-and-winds-stand";
+// $slot_name3 = "Wood and Winds Stand";
 
-$Img5 = get_bloginfo('url') . "/wp-content/uploads/neck-plug.jpg";
-$Alt5 = "Wood and Winds";
-$Url5 = "https://woodandwinds.com/en-us/products/mouthpiece-stand-for-sax-clarinet-etc";
-$ad_name5 = "wood-and-winds-mouthpiece-stand";
-$slot_name5 = "Wood and Winds Mouthpiece Stand";
+// $Img4 = get_bloginfo('url') . "/wp-content/uploads/pearls.jpg";
+// $Alt4 = "Wood and Winds";
+// $Url4 = "https://woodandwinds.com/en-us/products/wooden-finger-buttons-for-saxophone";
+// $ad_name4 = "wood-and-winds-pearls";
+// $slot_name4 = "Wood and Winds Pearls";
 
-$Img6 = get_bloginfo('url') . "/wp-content/uploads/neck-plug.jpg";
-$Alt6 = "Wood and Winds";
-$Url6 = "https://woodandwinds.com/en-us/products/exotic-wood-neck-plug-for-saxophone";
-$ad_name6 = "wood-and-winds-neck-plug";
-$slot_name6 = "Wood and Winds Neck Plug";
+// $Img5 = get_bloginfo('url') . "/wp-content/uploads/neck-plug.jpg";
+// $Alt5 = "Wood and Winds";
+// $Url5 = "https://woodandwinds.com/en-us/products/mouthpiece-stand-for-sax-clarinet-etc";
+// $ad_name5 = "wood-and-winds-mouthpiece-stand";
+// $slot_name5 = "Wood and Winds Mouthpiece Stand";
 
-$num = rand (1,6);
+// $Img6 = get_bloginfo('url') . "/wp-content/uploads/neck-plug.jpg";
+// $Alt6 = "Wood and Winds";
+// $Url6 = "https://woodandwinds.com/en-us/products/exotic-wood-neck-plug-for-saxophone";
+// $ad_name6 = "wood-and-winds-neck-plug";
+// $slot_name6 = "Wood and Winds Neck Plug";
+
+$num = rand (1,2);
 
 $Image = ${'Img'.$num};
 $Alt = ${'Alt' .$num};
