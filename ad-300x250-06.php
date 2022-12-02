@@ -1,50 +1,33 @@
 <?php
 
-// ADS 9 & 10
+// SLOT 5
 
-$Img1 = get_bloginfo('url') . "/wp-content/uploads/wall-stand.jpg";
-$Alt1 = "Wood and Winds";
-$Url1 = "https://woodandwinds.com/en-us/products/the-wall-hanger-saxophone-wall-stand-gift-for-saxophonist-player-tenor-alto-soprano-sax";
-$ad_name1 = "wood-and-winds-wall-stand";
-$slot_name1 = "Wood and Winds Wall Stand";
+$Img1 = get_bloginfo('url') . "/wp-content/uploads/Ad_BSWE_01.jpg";
+$Alt1 = "SGPRO Audio";  
+$Url1 = "https://sgproaudio.com/collections/instrument-microphones";
+$ad_name1 = "sgpro-audio-clip-mic-front-view";
+$slot_name1 = "SGPRO Audio Slot 5";
 
-$Img2 = get_bloginfo('url') . "/wp-content/uploads/wall-stand.jpg";
-$Alt2 = "Wood and Winds";
-$Url2 = "https://woodandwinds.com/en-us/products/the-wall-hanger-saxophone-wall-stand-gift-for-saxophonist-player-tenor-alto-soprano-sax";
-$ad_name2 = "wood-and-winds-wall-stand";
-$slot_name2 = "Wood and Winds Wall Stand";
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/Ad_BSWE_02.jpg";
+$Alt2 = "SGPRO Audio";
+$Url2 = "https://sgproaudio.com/collections/instrument-microphones";
+$ad_name2 = "sgpro-audio-text-only";
+$slot_name2 = "SGPRO Audio Slot 5";
 
-// $Img2 = get_bloginfo('url') . "/wp-content/uploads/thumbrest.jpg";
-// $Alt2 = "Wood and Winds";
-// $Url2 = "https://woodandwinds.com/en-us/products/wooden-thumbrest-for-saxophone";
-// $ad_name2 = "wood-and-winds-thumbrest";
-// $slot_name2 = "Wood and Winds Thumbrest";
+$Img3 = get_bloginfo('url') . "/wp-content/uploads/Ad_BSWE_03_221126.jpg";
+$Alt3 = "SGPRO Audio";
+$Url3 = "https://sgproaudio.com/collections/instrument-microphones";
+$ad_name3 = "sgpro-audio-specs";
+$slot_name3 = "SGPRO Audio Slot 5";
 
-// $Img3 = get_bloginfo('url') . "/wp-content/uploads/stand.jpg";
-// $Alt3 = "Wood and Winds";
-// $Url3 = "https://woodandwinds.com/en-us/products/solid-wood-sax-stand-available-immediately";
-// $ad_name3 = "wood-and-winds-stand";
-// $slot_name3 = "Wood and Winds Stand";
+$Img4 = get_bloginfo('url') . "/wp-content/uploads/Ad_BSWE_04.jpg";
+$Alt4 = "SGPRO Audio 15% Discount";
+$Url4 = "https://sgproaudio.com/pages/bswe-2022";
+$ad_name4 = "sgaudiopro-15-percent-discount";
+$slot_name4 = "SGPRO Audio Slot 5";
 
-// $Img4 = get_bloginfo('url') . "/wp-content/uploads/pearls.jpg";
-// $Alt4 = "Wood and Winds";
-// $Url4 = "https://woodandwinds.com/en-us/products/wooden-finger-buttons-for-saxophone";
-// $ad_name4 = "wood-and-winds-pearls";
-// $slot_name4 = "Wood and Winds Pearls";
 
-// $Img5 = get_bloginfo('url') . "/wp-content/uploads/neck-plug.jpg";
-// $Alt5 = "Wood and Winds";
-// $Url5 = "https://woodandwinds.com/en-us/products/mouthpiece-stand-for-sax-clarinet-etc";
-// $ad_name5 = "wood-and-winds-mouthpiece-stand";
-// $slot_name5 = "Wood and Winds Mouthpiece Stand";
-
-// $Img6 = get_bloginfo('url') . "/wp-content/uploads/neck-plug.jpg";
-// $Alt6 = "Wood and Winds";
-// $Url6 = "https://woodandwinds.com/en-us/products/exotic-wood-neck-plug-for-saxophone";
-// $ad_name6 = "wood-and-winds-neck-plug";
-// $slot_name6 = "Wood and Winds Neck Plug";
-
-$num = rand (1,2);
+$num = rand (1,4);
 
 $Image = ${'Img'.$num};
 $Alt = ${'Alt' .$num};

@@ -2,13 +2,13 @@
 
 // ADS 8 & 9
 
-$Img1 = get_bloginfo('url') . "/wp-content/uploads/retro-revival-handcrafted-vintager2_v2.jpg";
+$Img1 = get_bloginfo('url') . "/wp-content/uploads/retro-revival-handcrafted-vintager4_v1.jpg";
 $Alt1 = "Retro Revival Saxophone Mouthpieces";
 $Url1 = "https://retro-revival.com/";
 $ad_name1 = "retro-revival-precision-crafted-vintage-replica";
 $slot_name1 = "Retro Revival 300x250 Ad";
 
-$Img2 = get_bloginfo('url') . "/wp-content/uploads/retro-revival-handcrafted-vintager2_v2.jpg";
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/retro-revival-handcrafted-vintager4_v1.jpg";
 $Alt2 = "Retro Revival Saxophone Mouthpieces";
 $Url2 = "https://retro-revival.com/";
 $ad_name2 = "retro-revival-precision-crafted-vintage-replica";
