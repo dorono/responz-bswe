@@ -20,14 +20,14 @@ $Url3 = "https://sgproaudio.com/collections/instrument-microphones";
 $ad_name3 = "sgpro-audio-specs";
 $slot_name3 = "SGPRO Audio Slot 5";
 
-$Img4 = get_bloginfo('url') . "/wp-content/uploads/Ad_BSWE_04.jpg";
-$Alt4 = "SGPRO Audio 15% Discount";
-$Url4 = "https://sgproaudio.com/pages/bswe-2022";
-$ad_name4 = "sgaudiopro-15-percent-discount";
-$slot_name4 = "SGPRO Audio Slot 5";
+// $Img4 = get_bloginfo('url') . "/wp-content/uploads/Ad_BSWE_04.jpg";
+// $Alt4 = "SGPRO Audio 15% Discount";
+// $Url4 = "https://sgproaudio.com/pages/bswe-2022";
+// $ad_name4 = "sgaudiopro-15-percent-discount";
+// $slot_name4 = "SGPRO Audio Slot 5";
 
 
-$num = rand (1,4);
+$num = rand (1,3);
 
 $Image = ${'Img'.$num};
 $Alt = ${'Alt' .$num};
