@@ -507,13 +507,12 @@ SOCIAL WIDGET
   text-decoration: none;
 }
 .social-widget .widget {
-  display: inline-block;
+  /* display: inline-block; */
   zoom: 1;
-  *display: inline;
   margin: 0 2px 0 0;
 }
 .social-widget .widget div {
-  display: inline;
+  /* display: inline; */
 }
 .social-widget .widgettitle {
   width: auto;
@@ -549,6 +548,10 @@ SOCIAL WIDGET
 .social-widget li img {
   vertical-align: middle;
   margin-top: -5px;
+}
+
+#header .social-widget .Social_Widget.widget {
+  display: none;
 }
 
 /*
@@ -590,6 +593,14 @@ SEARCH FORM
 #header #searchform #s:focus {
   width: 140px;
   color: #000;
+}
+
+.wp-block-search .wp-block-search__button {
+  padding: 0 0 0 10px;
+}
+
+header .social-widget .widget div.wp-block-search__inside-wrapper {
+  width: auto;
 }
 
 /*
