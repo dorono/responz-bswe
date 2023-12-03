@@ -2,4 +2,4 @@ dev/.sass-cache/*
 dev/.tmp/*
 dev/node_modules/**
 db-backup/**
-.DS_Store?
+.DS_Store

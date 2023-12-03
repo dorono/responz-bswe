@@ -1,16 +1,22 @@
 <?php
 
-$Img1 = get_bloginfo('url') . "/wp-content/uploads/300x250-Bach-Shapes-Sheet-Music.png";
-$Alt1 = "Bach Shapes";
-$Url1 = "https://www.infinitemusician.com/p/bach-shapes";
-$class1 = "bach-shapes-sheet-music-300x250";
-$slot_name1 = "Bach Shapes Sheet Music 300x250";
+$Img1 = get_bloginfo('url') . "/wp-content/uploads/bsp-300x250-gunter.jpg";
+$Alt1 = "Bulletproof Saxophone Playing";
+$Url1 = "https://www.infinitemusician.com/p/bulletproof-saxophone-playing/";
+$class1 = "bsp-300x250-gunter";
+$slot_name1 = "Bulletproof Saxophone Playing Gunter 300x250";
 
-$Img2 = get_bloginfo('url') . "/wp-content/uploads/300x250-Bach-Shapes-Sheet-Music.png";
-$Alt2 = "Bach Shapes";
-$Url2 = "https://www.infinitemusician.com/p/bach-shapes";
-$class2 = "bach-shapes-sheet-music-300x250";
-$slot_name2 = "Bach Shapes Sheet Music 300x250";
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/bsp-300x250-gianluca.jpg";
+$Alt2 = "Bulletproof Saxophone Playing";
+$Url2 = "https://www.infinitemusician.com/p/bulletproof-saxophone-playing/";
+$class2 = "bsp-300x250-gianluca";
+$slot_name2 = "Bulletproof Saxophone Playing Gianluca 300x250";
+
+$Img3 = get_bloginfo('url') . "/wp-content/uploads/bsp-300x250-valdez.jpg";
+$Alt3 = "Bulletproof Saxophone Playing";
+$Url3 = "https://www.infinitemusician.com/p/bulletproof-saxophone-playing/";
+$class3 = "bsp-300x250-valdez";
+$slot_name3 = "Bulletproof Saxophone Playing Valdez 300x250";
 
 // $Img1 = get_bloginfo('url') . "/wp-content/uploads/Universal-Method-1.png";
 // $Alt1 = "Universal Method";
@@ -24,7 +30,7 @@ $slot_name2 = "Bach Shapes Sheet Music 300x250";
 // $class2 = "25-daily-studies-300x250";
 // $slot_name2 = "Amazon Link - 25 Daily Studies";
 
-$num = mt_rand(1,2);
+$num = mt_rand(1,3);
 
 $Image = ${'Img'.$num};
 $Alt = ${'Alt' .$num};

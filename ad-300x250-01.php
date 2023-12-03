@@ -332,11 +332,37 @@ $Url26 = "https://www.infinitemusician.com/p/lightning-fast-and-crystal-clean";
 $ad_name26 = "lfcc-multi-1-enhanced-2023";
 $slot_name26 = "LFCC FB-Style Featured Ad - 7ths - Enhanced-2023";
 
+$Img27 = get_bloginfo('url') . "/wp-content/uploads/gift-card-collage-900x471-blue-bg.jpg";
+$Cta27 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+$MainText27 = "<p>This holiday season, <strong>skip the sax cufflinks</strong> and get them what they really want...<strong>a brand new set of musical \"power tools\"</strong> to get them sounding better than ever.</p>
+
+<p>Infinite Musician is now offering gift cards for all of our highly effective and acclaimed courses, taught by some of the world\'s greatest saxophonists.</p>
+
+<p>So grab a gift card today, schedule the date and time you want it to go out, and <strong>bring them the priceless gift of musical transformation.</strong></p>";
+$ProductName27 = "NEW: Gift Cards for All Sax and Jazz Courses";
+$DisplayUrl27 = "INFINITEMUSICAN.COM";
+$Url27 = "https://www.infinitemusician.com/p/gift-cards";
+$ad_name27 = "gift-card-collage-900x471-1";
+$slot_name27 = "Gift Cards Blue Bug";
+
+$Img28 = get_bloginfo('url') . "/wp-content/uploads/FAMT_HERO_900x471.png";
+$Cta28 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
+$MainText28 = "<p>Playing music that excites and inspires you is the faster way to build foundational skills. This is not just a theory. It's based on over 2 decades of taking beginners and helping them become outstanding saxophone players.</p>
+
+<p>If you're a beginning saxophonist, a parent of a beginning saxophonist, or a saxophone instructor, I'd like to invite you to explore this exhilarating, confidence-boosting, inspiring, and transformative musical journey.</p>";
+$ProductName28 = "Fun Beats Discipline - Every. Single. Time.";
+$DisplayUrl28 = "INFINITEMUSICAN.COM";
+$Url28 = "https://www.infinitemusician.com/p/fun-and-modern-tunes-for-beginner-saxophonists";
+$ad_name28 = "FAMT_HERO_900x471";
+$slot_name28 = "Fun and Modern Tunes Hero Banner";
+
 //////////////////////////////////////////////////////////
 /////////////// END OF ADS SECTION //////////////////////
 //////////////////////////////////////////////////////////
 
-$num = rand (1,26);
+// UPDATE IN "Inside the Loop" AND "FB Ad Style Widget (After Paragraph) WIDGETS
+
+$num = rand (1,28);
 
 $Image = ${'Img'.$num};
 $Cta = ${'Cta'.$num};

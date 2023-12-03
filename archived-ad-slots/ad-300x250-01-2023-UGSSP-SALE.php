@@ -8,8 +8,8 @@ $MainText1 = "<p>Regardless of your horn, mouthpiece, or reed, the truth is, to 
 $ProductName1 = "The New \"Sax Sound Bible\"";
 $DisplayUrl1 = "InfiniteMusician.com";
 $Url1 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-production?coupon_code=BIGSOUND23&product_id=1341881";
-$ad_name1 = "Aug_23_Sale_Quality_FB_EmbouchureCloseup";
-$slot_name1 = "Aug_23_Sale_Quality_FB_EmbouchureCloseup";
+$ad_name1 = "ugssp-2023-expanded-sale";
+$slot_name1 = "UGSSP August 2023 Sale";
 
 $Img2 = get_bloginfo('url') . "/wp-content/uploads/Aug_23_Sale_Quality_FB_NoLogoMulti.jpg";
 $Cta2 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
@@ -17,8 +17,8 @@ $MainText2 = "<p>Embouchure, Overtones, Voicing, Stylistic Devices, Reeds, and E
 $ProductName2 = "The New \"Sax Sound Bible\"";
 $DisplayUrl2 = "InfiniteMusician.com";
 $Url2 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-production?coupon_code=BIGSOUND23&product_id=1341881";
-$ad_name2 = "Aug_23_Sale_Quality_FB_NoLogoMulti";
-$slot_name2 = "Aug_23_Sale_Quality_FB_NoLogoMulti";
+$ad_name2 = "ugssp-2023-expanded-sale";
+$slot_name2 = "UGSSP August 2023 Sale";
 
 $Img3 = get_bloginfo('url') . "/wp-content/uploads/Aug_23_Sale_Quality_FBVideoCover.jpg";
 $Cta3 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
@@ -26,8 +26,8 @@ $MainText3 = "<p>Embouchure, Overtones, Voicing, Stylistic Devices, Reeds, and E
 $ProductName3 = "A Complete Method for a Huge Sax Sound";
 $DisplayUrl3 = "InfiniteMusician.com";
 $Url3 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-production?coupon_code=BIGSOUND23&product_id=1341881";
-$ad_name3 = "Aug_23_Sale_Quality_FBVideoCover";
-$slot_name3 = "Aug_23_Sale_Quality_FBVideoCover";
+$ad_name3 = "ugssp-2023-expanded-sale";
+$slot_name3 = "UGSSP August 2023 Sale";
 
 $Img4 = get_bloginfo('url') . "/wp-content/uploads/Aug_23_Sale_Status_FB_StirsSouls.jpg";
 $Cta4 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
@@ -35,8 +35,8 @@ $MainText4 = "<p>Want to become another reason why so many people say, \"I love 
 $ProductName4 = "Capture and Stun from Note One";
 $DisplayUrl4 = "InfiniteMusician.com";
 $Url4 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-production?coupon_code=BIGSOUND23&product_id=1341881";
-$ad_name4 = "Aug_23_Sale_Status_FB_StirsSouls";
-$slot_name4 = "Aug_23_Sale_Status_FB_StirsSouls";
+$ad_name4 = "ugssp-2023-expanded-sale";
+$slot_name4 = "UGSSP August 2023 Sale";
 
 $Img5 = get_bloginfo('url') . "/wp-content/uploads/Aug_23_Sale_Status_FB_V2_Audience.jpg";
 $Cta5 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
@@ -44,8 +44,8 @@ $MainText5 = "<p>Want to become another reason why so many people say, \"I love 
 $ProductName5 = "Capture and Stun from Note One";
 $DisplayUrl5 = "InfiniteMusician.com";
 $Url5 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-production?coupon_code=BIGSOUND23&product_id=1341881";
-$ad_name5 = "Aug_23_Sale_Status_FB_V2_Audience";
-$slot_name5 = "Aug_23_Sale_Status_FB_V2_Audience";
+$ad_name5 = "ugssp-2023-expanded-sale";
+$slot_name5 = "UGSSP August 2023 Sale";
 
 $Img6 = get_bloginfo('url') . "/wp-content/uploads/Aug_23_Sale_Status_FB_V2_Resonate.jpg";
 $Cta6 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
@@ -53,8 +53,8 @@ $MainText6 = "<p>To truly captivate and excite your listeners, building a big, b
 $ProductName6 = "Harness the Magnetic Force of the Sax";
 $DisplayUrl6 = "InfiniteMusician.com";
 $Url6 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-production?coupon_code=BIGSOUND23&product_id=1341881";
-$ad_name6 = "Aug_23_Sale_Status_FB_V2_Resonate";
-$slot_name6 = "Aug_23_Sale_Status_FB_V2_Resonate";
+$ad_name6 = "ugssp-2023-expanded-sale";
+$slot_name6 = "UGSSP August 2023 Sale";
 
 $Img7 = get_bloginfo('url') . "/wp-content/uploads/Aug_23_Sale_Testimonial_FB_Rzepiela.jpg";
 $Cta7 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
@@ -62,8 +62,8 @@ $MainText7 = "<p>Ask just about any sax pro, and they will agree - this time-tes
 $ProductName7 = "A Professional's Path to Huge Sax Sound";
 $DisplayUrl7 = "InfiniteMusician.com";
 $Url7 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-production?coupon_code=BIGSOUND23&product_id=1341881";
-$ad_name7 = "Aug_23_Sale_Testimonial_FB_Rzepiela";
-$slot_name7 = "Aug_23_Sale_Testimonial_FB_Rzepiela";
+$ad_name7 = "ugssp-2023-expanded-sale";
+$slot_name7 = "UGSSP August 2023 Sale";
 
 $Img8 = get_bloginfo('url') . "/wp-content/uploads/Aug_23_Sale_Testimonial_FB_V2_Evans.jpg";
 $Cta8 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
@@ -71,8 +71,8 @@ $MainText8 = "<p>Ask just about any sax pro, and they will agree - this time-tes
 $ProductName8 = "A Professional's Path to Huge Sax Sound";
 $DisplayUrl8 = "InfiniteMusician.com";
 $Url8 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-production?coupon_code=BIGSOUND23&product_id=1341881";
-$ad_name8 = "Aug_23_Sale_Testimonial_FB_V2_Evans";
-$slot_name8 = "Aug_23_Sale_Testimonial_FB_V2_Evans";
+$ad_name8 = "ugssp-2023-expanded-sale";
+$slot_name8 = "UGSSP August 2023 Sale";
 
 $Img9 = get_bloginfo('url') . "/wp-content/uploads/Aug_23_Sale_Testimonial_FB_V2_Mintzer.jpg";
 $Cta9 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
@@ -80,8 +80,8 @@ $MainText9 = "<p>Looking to build a big, stunning sax sound using the same techn
 $ProductName9 = "Build Your Sax Sound Like the Masters";
 $DisplayUrl9 = "InfiniteMusician.com";
 $Url9 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-production?coupon_code=BIGSOUND23&product_id=1341881";
-$ad_name9 = "Aug_23_Sale_Testimonial_FB_V2_Mintzer";
-$slot_name9 = "Aug_23_Sale_Testimonial_FB_V2_Mintzer";
+$ad_name9 = "ugssp-2023-expanded-sale";
+$slot_name9 = "UGSSP August 2023 Sale";
 
 $Img10 = get_bloginfo('url') . "/wp-content/uploads/Aug_23_Sale_UGSSP_FB_Miles.jpg";
 $Cta10 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
@@ -89,8 +89,8 @@ $MainText10 = "<p>It's no secret that Liebman has mentored countless sax greats 
 $ProductName10 = "Learn from the Sax Sound \"Jedi Master\"";
 $DisplayUrl10 = "InfiniteMusician.com";
 $Url10 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-production?coupon_code=BIGSOUND23&product_id=1341881";
-$ad_name10 = "Aug_23_Sale_UGSSP_FB_Miles";
-$slot_name10 = "Aug_23_Sale_UGSSP_FB_Miles";
+$ad_name10 = "ugssp-2023-expanded-sale";
+$slot_name10 = "UGSSP August 2023 Sale";
 
 $Img11 = get_bloginfo('url') . "/wp-content/uploads/Aug_23_Sale_UGSSP_FB_PhilWoods.jpg";
 $Cta11 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
@@ -98,8 +98,8 @@ $MainText11 = "<p>It's no secret that Liebman has mentored countless sax greats 
 $ProductName11 = "Learn from the Sax Sound \"Jedi Master\"";
 $DisplayUrl11 = "InfiniteMusician.com";
 $Url11 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-production?coupon_code=BIGSOUND23&product_id=1341881";
-$ad_name11 = "Aug_23_Sale_UGSSP_FB_PhilWoods";
-$slot_name11 = "Aug_23_Sale_UGSSP_FB_PhilWoods";
+$ad_name11 = "ugssp-2023-expanded-sale";
+$slot_name11 = "UGSSP August 2023 Sale";
 
 $Img12 = get_bloginfo('url') . "/wp-content/uploads/Aug_23_Sale_UGSSP_FB_ThreeTenors.jpg";
 $Cta12 = get_bloginfo('url') . "/wp-content/uploads/fb-learn-more-btn.jpg";
@@ -107,8 +107,10 @@ $MainText12 = "<p>See why countless pros have looked to Liebman as a sax sound m
 $ProductName12 = "Learn from the Sax Sound \"Jedi Master\"";
 $DisplayUrl12 = "InfiniteMusician.com";
 $Url12 = "https://www.infinitemusician.com/p/ultimate-guide-to-saxophone-sound-production?coupon_code=BIGSOUND23&product_id=1341881";
-$ad_name12 = "Aug_23_Sale_UGSSP_FB_ThreeTenors";
-$slot_name12 = "Aug_23_Sale_UGSSP_FB_ThreeTenors";
+$ad_name12 = "ugssp-2023-expanded-sale";
+$slot_name12 = "UGSSP August 2023 Sale";
+
+
 
 //////////////////////////////////////////////////////////
 /////////////// END OF ADS SECTION //////////////////////
