@@ -2,17 +2,17 @@
 
 // ADS 5 & 6
 
-$Img1 = get_bloginfo('url') . "/wp-content/uploads/HR_Custom_Dark_wSoprano_BestSax_2021_300x250.jpg";
-$Alt1 = "HR* CUSTOM DARK Series";
-$Url1 = "https://jodyjazz.com/hr-custom-dark-series-saxophone-mouthpieces/";
-$ad_name1 = "HR_Custom_Dark_wSoprano_BestSax_2021_300x250";
+$Img1 = get_bloginfo('url') . "/wp-content/uploads/BannerAd_DVHR_Alto_Tenor_300x250.png";
+$Alt1 = "DV HR";
+$Url1 = "https://jodyjazz.com/dv-hr-series/";
+$ad_name1 = "BannerAd_DVHR_Alto_Tenor_300x250";
 $slot_name1 = "Jody Jazz Slot 1 - 300x250";
 
-$Img2 = get_bloginfo('url') . "/wp-content/uploads/RousseauAd_BestSax_Jan21_300x250.jpg";
-$Alt2 = "Rousseau Introduction ";
-$Url2 = "https://rousseaumouthpieces.com";
-$ad_name2 = "RousseauAd_BestSax_Jan21_300x250";
-$slot_name2 = "Jody Jazz Slot 2 - 300x250";
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/BannerAd_DVHR_Alto_Tenor_300x250.png";
+$Alt2 = "DV HR";
+$Url2 = "https://jodyjazz.com/dv-hr-series/";
+$ad_name2 = "BannerAd_DVHR_Alto_Tenor_300x250";
+$slot_name2 = "Jody Jazz Slot 1 - 300x250";
 
 $num = mt_rand (1,2);
 

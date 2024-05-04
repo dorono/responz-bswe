@@ -1,16 +1,16 @@
 <?php
 
-$Img1 = get_bloginfo('url') . "/wp-content/uploads/Universal-Method-1.png";
-$Alt1 = "Universal Method";
-$Url1 = "https://amzn.to/3Gnbv04";
-$class1 = "universal-method-300x250";
-$slot_name1 = "Amazon Link - Universal Method";
+$Img1 = get_bloginfo('url') . "/wp-content/uploads/foursaxes-purple-color-correction.jpg";
+$Alt1 = "Four Saxes";
+$Url1 = "https://en.foursaxes.com";
+$class1 = "foursaxes-purple-color-correction-300x250";
+$slot_name1 = "Four Saxes - Purple Ad";
 
-$Img2 = get_bloginfo('url') . "/wp-content/uploads/25-daily-studies-300x250-1.jpg";
-$Alt2 = "25 Daily Studies";
-$Url2 = "https://amzn.to/45NcVLY";
-$class2 = "25-daily-studies-300x250";
-$slot_name2 = "Amazon Link - 25 Daily Studies";
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/foursaxes-purple-color-correction.jpg";
+$Alt2 = "Four Saxes";
+$Url2 = "https://en.foursaxes.com";
+$class2 = "foursaxes-purple-color-correction-300x250";
+$slot_name2 = "Four Saxes - Purple Ad";
 
 $num = mt_rand(1,2);
 

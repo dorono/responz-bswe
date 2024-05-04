@@ -1,36 +1,32 @@
 <?php
 
-$Img1 = get_bloginfo('url') . "/wp-content/uploads/bsp-300x250-gunter.jpg";
-$Alt1 = "Bulletproof Saxophone Playing";
-$Url1 = "https://www.infinitemusician.com/p/bulletproof-saxophone-playing/";
-$class1 = "bsp-300x250-gunter";
-$slot_name1 = "Bulletproof Saxophone Playing Gunter 300x250";
+$Img1 = get_bloginfo('url') . "/wp-content/uploads/300x250-Birddog.png";
+$Alt1 = "Locoparasaxo Wall Mounts";
+$Url1 = "https://www.locoparasaxo.com/collections/saxophone-wallmounts";
+$class1 = "300x250-Birddoge";
+$slot_name1 = "Birddog";
 
-$Img2 = get_bloginfo('url') . "/wp-content/uploads/bsp-300x250-gianluca.jpg";
-$Alt2 = "Bulletproof Saxophone Playing";
-$Url2 = "https://www.infinitemusician.com/p/bulletproof-saxophone-playing/";
-$class2 = "bsp-300x250-gianluca";
-$slot_name2 = "Bulletproof Saxophone Playing Gianluca 300x250";
+$Img2 = get_bloginfo('url') . "/wp-content/uploads/300x250-Birddog.png";
+$Alt2 = "Locoparasaxo Wall Mounts";
+$Url2 = "https://www.locoparasaxo.com/collections/saxophone-wallmounts";
+$class2 = "300x250-Birddoge";
+$slot_name2 = "Birddog";
 
-$Img3 = get_bloginfo('url') . "/wp-content/uploads/bsp-300x250-valdez.jpg";
-$Alt3 = "Bulletproof Saxophone Playing";
-$Url3 = "https://www.infinitemusician.com/p/bulletproof-saxophone-playing/";
-$class3 = "bsp-300x250-valdez";
-$slot_name3 = "Bulletproof Saxophone Playing Valdez 300x250";
 
-// $Img1 = get_bloginfo('url') . "/wp-content/uploads/Universal-Method-1.png";
-// $Alt1 = "Universal Method";
-// $Url1 = "https://amzn.to/3Gnbv04";
-// $class1 = "universal-method-300x250";
-// $slot_name1 = "Amazon Link - Universal Method";
+// $Img1 = get_bloginfo('url') . "/wp-content/uploads/Be-Brave-BestSAXSite2-300px.jpg";
+// $Alt1 = "Locoparasaxo Wall Mounts";
+// $Url1 = "https://www.locoparasaxo.com/collections/saxophone-wallmounts";
+// $class1 = "Be-Brave-BestSAXSite2-300px";
+// $slot_name1 = "LocoParaSaxo Be Brave";
 
-// $Img2 = get_bloginfo('url') . "/wp-content/uploads/25-daily-studies-300x250-1.jpg";
-// $Alt2 = "25 Daily Studies";
-// $Url2 = "https://amzn.to/45NcVLY";
-// $class2 = "25-daily-studies-300x250";
-// $slot_name2 = "Amazon Link - 25 Daily Studies";
+// $Img2 = get_bloginfo('url') . "/wp-content/uploads/Be-Brave-BestSAXSite2-300px.jpg";
+// $Alt2 = "Locoparasaxo Wall Mounts";
+// $Url2 = "https://www.locoparasaxo.com/collections/saxophone-wallmounts";
+// $class2 = "Be-Brave-BestSAXSite2-300px";
+// $slot_name2 = "LocoParaSaxo Be Brave";
 
-$num = mt_rand(1,3);
+
+$num = mt_rand(1,2);
 
 $Image = ${'Img'.$num};
 $Alt = ${'Alt' .$num};

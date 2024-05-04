@@ -117,7 +117,7 @@
 
   $('.boxunit a').on('click', function () {
     var label = $(this).data('slot-name');
-
+    console.log('GA TAg label')
     ga('send', {
       hitType: 'event',
       eventCategory: 'Advertisements',
